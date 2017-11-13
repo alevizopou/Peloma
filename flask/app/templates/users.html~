@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<style media="screen" type="text/css">
+
+</style>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}" >
+
+<title> Test page </title>
+</head>
+<body>
+<center>
+    <h2> SCENE: A Scalable Two-Stage Personalized News Recommendation System</h2>
+    <br><br>
+    <div id="loading"></div>
+    <div id="content" style="width:50%" >
+    <form action="/articles"  method="post">
+        <fieldset><br>
+        <select name="users">
+            <option value="" disabled selected>-- Select a user --</option>
+            {% for us in uslist %}
+            <option value="{{ us[0] }}">{{ us[0] }}</option>
+            {% endfor %}
+            <option value="Create new user">Create new user</option>
+        </select>
+
+        <table>
+	    <tr>
+	    <td> Username: </td>
+	    <td> <input type="text" name="username" size="20" /> </td>
+	    </tr>
+        </table>
+        <p><input type=submit value=Login></p>
+        </fieldset>
+        <br>
+    </form>
+    </div>
+</center>
+</body>

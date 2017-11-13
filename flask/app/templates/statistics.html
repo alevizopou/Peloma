@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<center>
+    <form action="/articles">
+        <input type="submit" value="Back to Articles">
+    </form>
+
+    <p>{{ user_selected }}'s rating: {{ check_selected }}/{{ all }}</p>
+    <p>We appreciate your feedback!</p>
+
+</center>
+{% endblock %}

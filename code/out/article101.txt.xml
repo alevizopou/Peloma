@@ -1,0 +1,14 @@
+<Location gate:gateId="367" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="354;355;357">COLOMBIA</Location> BUSINESS ASKED TO DIVERSIFY FROM COFFEE
+  A <Location gate:gateId="368" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="354;355;357">Colombia</Location> government trade official has
+  urged the business community to aggressively diversify its
+  activities and stop relying so heavily on coffee.
+      <Person gate:gateId="369" firstName="Samuel" ruleFinal="PersonFinal" gender="male" surname="Yohai" kind="fullName" rule="PersonFull" middleName="Alberto">Samuel Alberto Yohai</Person>, director of the Foreign Trade
+  Institute, INCOMEX, said private businessmen should not become
+  what he called &quot;mental hostages&quot; to coffee, traditionally
+  <Location gate:gateId="370" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="354;355;357">Colombia</Location>&apos;s major export.
+      The <Organization gate:gateId="371" orgType="unknown" rule="TheOrgXBase" ruleFinal="OrgFinal">National Planning Department</Organization> forecast that in 1987
+  coffee will account for only one-third of total exports, or
+  about 1.5 billion dlrs, with oil and energy products making up
+  another third and non-traditional exports the remainder.
+  
+

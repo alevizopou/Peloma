@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<center>
+    <form action="/articles">
+        <input type="submit" value="Back to Articles">
+    </form>
+    <br>
+    <form>
+        <div align="center" style="width:100%" >
+        <table class="myTable" align="center" style="width:30%">
+            <tr><th colspan="2">{{ user_selected }}'s rating</th></tr>
+            <tr>
+                <th>Article preference:</th>
+                <td>{{ check_selected }}/{{ all }}</td>
+            </tr>
+            <tr>
+                <th>Recommended list's diversity:</th>
+                <td>{{ diver }}</td>
+            </tr>
+            <tr>
+                <th>Recommended articles' ordering:</th>
+                <td>{{ ord }}</td>
+            </tr>
+        </table>
+        </div>
+    </form>
+    <br>
+    <p>We appreciate your feedback!</p>
+
+</center>
+{% endblock %}

@@ -1,0 +1,11 @@
+<Location gate:gateId="303" rule="Unknown" gate:matches="287;299" NMRule="Unknown" kind="PN">CARGILL</Location> CONFIRMS WHITE SUGAR SALE TO INDIA
+  <Location gate:gateId="304" locType="city" rule="Location1" ruleFinal="LocFinal">London</Location>-based trader <Location gate:gateId="305" rule="Location1" ruleFinal="LocFinal" locType="city" gate:matches="287;299">Cargill</Location> (<Location gate:gateId="300" locType="country" rule="Location1" ruleFinal="LocFinal">U.K.</Location>) Ltd
+  confirmed it sold one cargo of white sugar to <Location gate:gateId="301" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="289;293">India</Location> for
+  shipment April 15/May 15 at yesterday&apos;s tender.
+      Price details were not immediately available but some
+  traders suggested business had been done around 220 dlrs a
+  tonne cif.
+      <Location gate:gateId="302" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="289;293">India</Location> tendered for one or two cargoes of white sugar. There
+  was no specific requirement on shipping period.
+  
+

@@ -1,0 +1,16 @@
+intervention	NN	intervention
+says	VVZ	say
+sold	VVN	sell
+tonnes	NNS	tonne
+white	JJ	white
+sugar	NN	sugar
+rebate	NN	rebate
+ecus	NN	ecus
+intervention	NN	intervention
+says	VVZ	say
+sold	VVN	sell
+tonnes	NNS	tonne
+white	JJ	white
+sugar	NN	sugar
+rebate	NN	rebate
+ecus	NN	ecus

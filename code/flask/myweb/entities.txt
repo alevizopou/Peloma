@@ -1,0 +1,2446 @@
+University of East London	organization	1
+University of Edinburgh	organization	1
+European Research Council	organization	1
+Max Planck Institute	organization	1
+Goldsmiths, University of London	organization	1
+University of Sussex	organization	1
+University of East London	organization	1
+ward	person	1
+ward	person	1
+Gaga	person	1
+Lady Gaga	person	1
+Julia	person	1
+Simner	person	1
+Dr Julia Simner	person	1
+Simner	person	1
+Simner	person	1
+Michael	person	1
+Banissy	person	1
+Dr Michael Banissy	person	1
+Nicolas	person	1
+Rothen	person	1
+Dr Nicolas Rothen	person	1
+Rothen	person	1
+Simner	person	1
+Jonas	person	1
+Dr Clare Jonas	person	1
+Jonas	person	1
+Jonas	person	1
+Jonas	person	1
+Jonas	person	1
+ward	person	1
+Jonas	person	1
+Jonas	person	1
+Rothen	person	1
+Rothen	person	1
+Banissy	person	1
+Banissy	person	1
+Banissy	person	1
+Banissy	person	1
+Jonas	person	1
+Jonas	person	1
+Oxford	location	1
+Nijmegen	location	1
+the Netherlands	location	1
+Clare	location	1
+the Netherlands	location	1
+Indiana University	organization	2
+Indiana University	organization	2
+Karolinska Institute	organization	2
+Office of National Statistics	organization	2
+City University of New York	organization	2
+City University of New York	organization	2
+Brian D'Onofrio	person	2
+Ryan Edwards	person	2
+Jennifer Roff	person	2
+US	location	2
+Stockholm	location	2
+Sweden	location	2
+England	location	2
+Wales	location	2
+University of Bern	organization	3
+Stephen LaBerge	person	3
+Ursula Voss	person	3
+Martin Dresler	person	3
+Daniel Erlacher	person	3
+Karolinska Institute	organization	4
+Karolinska Institute	organization	4
+European Society	organization	4
+Institute of Cancer Research	organization	4
+Wolfson Institute of Preventive Medicine	organization	4
+University of Oxford	organization	4
+Breast Cancer Care	organization	4
+peers	person	4
+Dr Emelie Benyi	person	4
+Prof	person	4
+Mel Greaves	person	4
+Greaves	person	4
+Prof	person	4
+Jack Cuzick	person	4
+Queen Mary University	person	4
+Dr Jane Green	person	4
+Carolyn Rogers	person	4
+Sweden	location	4
+Stockholm	location	4
+Barcelona	location	4
+London	location	4
+University of Maryland	organization	5
+laws	person	5
+Mark Vogelsberger	person	5
+Vogelsberger	person	5
+Vogelsberger	person	5
+Michael Boylan-Kolchin	person	5
+Vogelsberger	person	5
+Vogelsberger	person	5
+Oxford Health NHS Foundation	organization	6
+University of Oxford	organization	6
+Oxford University	organization	6
+Dr Rupert McShane	person	6
+McShane	person	6
+UK	location	6
+Oxford	location	6
+UK	location	6
+Oxford	location	6
+Oxford	location	6
+UK	location	6
+Ohio State University College of Medicine	organization	7
+American Psychological Association	organization	7
+America online	organization	7
+Carnegie Mellon University	organization	7
+quantum	organization	7
+Northwestern University	organization	7
+Jan Kiecolt-Glaser	person	7
+Kiecolt-Glaser	person	7
+Kiecolt-	person	7
+Glaser	person	7
+Kiecolt-	person	7
+Glaser	person	7
+Sheldon Cohen	person	7
+Cohen	person	7
+peers	person	7
+Cohen	person	7
+Kiecolt-Glaser	person	7
+Erwin Gelfand	person	7
+Gelfand	person	7
+Greg Miller	person	7
+Miller	person	7
+Miller	person	7
+Kiecolt-	person	7
+Glaser	person	7
+Miller	person	7
+Pittsburgh	location	7
+Denver	location	7
+Johns Hopkins University	organization	8
+Emory University	organization	8
+Patrick Kanold	person	8
+Mark Bear	person	8
+Bear	person	8
+Kanold	person	8
+Kanold	person	8
+Kanold	person	8
+Kanold	person	8
+Maryland	location	8
+Lee	location	8
+Lee	location	8
+Lee	location	8
+Lee	location	8
+Lee	location	8
+National Academy of Sciences	organization	9
+Central Institute of Mental Health	organization	9
+University of Heidelberg	organization	9
+University of Montreal	organization	9
+Mount Sinai	organization	10
+Nazi	organization	10
+Cambridge University	organization	10
+University College London	organization	10
+Emory University	organization	10
+Rachel Yehuda	person	10
+hide	person	10
+gene	person	10
+Yehuda	person	10
+gene	person	10
+gene	person	10
+Yehuda	person	10
+gene	person	10
+gene	person	10
+Yehuda	person	10
+gene	person	10
+gene	person	10
+Yehuda	person	10
+Marcus Pembrey	person	10
+Yehuda	person	10
+gene	person	10
+New York	location	10
+Europe	location	10
+Atlanta	location	10
+Cardiff University	organization	11
+National Archaeological Museum of Athens	organization	11
+Elias Stadiatos	person	11
+ray	person	11
+Mike Edmunds	person	11
+Tony Freeth	person	11
+Julius Caesar	person	11
+Professor Edmunds	person	11
+Mona Lisa	person	11
+Antikythera	location	11
+Antikythera	location	11
+Rome	location	11
+Antikythera	location	11
+Athens	location	11
+Thessaloniki	location	11
+Lorenz	person	12
+Bletchley Park	location	12
+Britain	location	12
+KPMG	organization	13
+Surrey University	organization	13
+University of Cambridge	organization	13
+Privitar	organization	13
+CA Technologies	organization	13
+Technical University of Tampere	organization	13
+EU	organization	13
+Mark Thompson	person	13
+William Webb	person	13
+Weightless SIG	person	13
+John Taysom	person	13
+Peter Matthews	person	13
+Matthews	person	13
+Finland	location	13
+Google	organization	14
+Google	organization	14
+Google	organization	14
+Google	organization	14
+Google	organization	14
+Google	organization	14
+Google	organization	14
+Google	organization	14
+Google	organization	14
+Google	organization	14
+None	person	14
+Doc	person	14
+None	person	14
+Doc	person	14
+Shet	person	14
+Shet	person	14
+New York	location	14
+Fortaleza	location	14
+Brazil	location	14
+Japan	location	14
+Google	organization	15
+European Court of Justice	organization	15
+Google	organization	15
+Facebook	organization	15
+Harvard	organization	15
+Oxford Internet Institute	organization	15
+Google	organization	15
+Google	organization	15
+Google	organization	15
+Google	organization	15
+London School of Economics	organization	15
+Computer and Communications	organization	15
+Industry Association	organization	15
+Facebook	organization	15
+Microsoft	organization	15
+Google	organization	15
+Google	organization	15
+Google	organization	15
+Google	organization	15
+Spanish Data Protection Agency	organization	15
+Google	organization	15
+Google	organization	15
+National High Court of Spain	organization	15
+Jonathan Zittrain	person	15
+Viktor	person	15
+Mayer-Schönberger	person	15
+Mr. Mayer-Schönberger	person	15
+Orla Lynskey	person	15
+James Waterworth	person	15
+hide	person	15
+Emma Carr	person	15
+Mr. Mayer-Schönberger	person	15
+Mr. Mayer-Schönberger	person	15
+Michael Fertik	person	15
+Mr. Fertik	person	15
+Mario Costeja	person	15
+Mr. Costeja	person	15
+Mr. Costeja	person	15
+Mr. Costeja	person	15
+Europe	location	15
+Luxembourg	location	15
+United States	location	15
+Europe	location	15
+France	location	15
+Germany	location	15
+Europe	location	15
+Europe	location	15
+Brussels	location	15
+Orwell	location	15
+Europe	location	15
+University of Oxford	organization	16
+Oxford Internet Institute	organization	16
+Royal Society	organization	16
+Royal Society	organization	16
+Dr Mark Graham	person	16
+aren	person	16
+Graham	person	16
+Sarah Stone	person	16
+Maria Sibylla Meriam	person	16
+Chelsea Manning	person	16
+UK	location	16
+US	location	16
+France	location	16
+Germany	location	16
+Italy	location	16
+the Netherlands	location	16
+Africa	location	16
+Nairobi	location	16
+Europe	location	16
+North America	location	16
+Europe	location	16
+North America	location	16
+Britain	location	16
+Strawberry Point Elementary School	organization	17
+University of Michigan	organization	17
+Facebook	organization	17
+Google	organization	17
+Facebook	organization	17
+Strawberry	organization	17
+Twitter	organization	17
+Massachusetts Institute of Technology	organization	17
+Microsoft	organization	17
+Jordan Lisle	person	17
+Wendy Lisle	person	17
+Elliot Soloway	person	17
+foster	person	17
+Dr. Soloway	person	17
+Bill Gates	person	17
+Mark Zuckerberg	person	17
+Britt Neuhaus	person	17
+John Pearce	person	17
+Jeff Leane	person	17
+MV Gate	person	17
+Gate	person	17
+Mr. Pearce	person	17
+James Meezan	person	17
+MV Gate	person	17
+Karen Meezan	person	17
+MV Gate	person	17
+James	person	17
+Sammy Smith	person	17
+Scott Wong	person	17
+Sai	person	17
+Hadi Partovi	person	17
+Alana Aaron	person	17
+aren	person	17
+New York City	location	17
+Chicago	location	17
+Mill Valley	location	17
+Chicago	location	17
+New York City	location	17
+New York City	location	17
+Silicon Valley	location	17
+United States	location	17
+Mill Valley	location	17
+Bridge	location	17
+San Francisco	location	17
+Mill Valley	location	17
+Washington Heights	location	17
+Manhattan	location	17
+House	organization	18
+House	organization	18
+House	organization	18
+House	organization	18
+Shoots & Leaves	organization	18
+Terry Pratchett	person	18
+Lisa Jewell	person	18
+Alastair Campbell	person	18
+Irvine Welsh	person	18
+Tony Parsons	person	18
+Dan Franklin	person	18
+Franklin	person	18
+Franklin	person	18
+Pratchett	person	18
+Douglas Adams	person	18
+Neil Gaiman	person	18
+Tony Parsons	person	18
+Irvine Welsh	person	18
+Fyodor Dostoyevsky	person	18
+George Orwell	person	18
+Alastair Campbell	person	18
+Pratchett	person	18
+Pratchett	person	18
+Colin Telford	person	18
+Amazon	location	18
+Amazon	location	18
+UK	location	18
+Amazon	location	18
+Amazon	location	18
+Amazon	location	18
+London	location	18
+Hayling Island	location	18
+Hampshire	location	18
+Telford	location	18
+Pediatric Sleep Center	organization	19
+Washington Post	organization	19
+Lynn Chen	person	19
+Andy Warhol	person	19
+aren	person	19
+Seattle	location	19
+Amazon	organization	20
+Amazon	organization	20
+Amazon	organization	20
+Best Buy	organization	20
+Netflix	organization	20
+Google	organization	20
+Apple	organization	20
+Facebook	organization	20
+till	person	20
+Lowe	person	20
+Lowe	person	20
+Chloe	person	20
+Echo	person	20
+Alexa	person	20
+Amazon	location	20
+UK	location	20
+UK	location	20
+Amazon	location	20
+Seattle	location	20
+UK	location	20
+Sweden	location	20
+US	location	20
+Japan	location	20
+US	location	20
+California	location	20
+Cambridge	location	20
+Hong Kong	location	20
+Amazon	location	20
+Amazon	location	20
+Trans-Pacific Partnership	organization	21
+Kennedy School of Government	organization	21
+Harvard	organization	21
+World Bank	organization	21
+Kennedy School	organization	21
+Harvard	organization	21
+Pew Research Center	organization	21
+World	organization	21
+President Trump	person	21
+Obama	person	21
+Mr. Trump	person	21
+Mr. Trump	person	21
+Mr. Trump	person	21
+Mr. Trump	person	21
+Michael	person	21
+Clemens	person	21
+Claudio E. Montenegro	person	21
+Sana	person	21
+flip	person	21
+Mr. Clemens	person	21
+George Borjas	person	21
+Mr. Clemens	person	21
+Mr. Trump	person	21
+America	location	21
+America	location	21
+United States	location	21
+Pacific	location	21
+United States	location	21
+Peru	location	21
+United States	location	21
+Karachi	location	21
+Los Angeles	location	21
+New York	location	21
+United States	location	21
+New York	location	21
+Karachi	location	21
+United States	location	21
+United States	location	21
+America	location	21
+South Africans	location	21
+Africa	location	21
+East Asians	location	21
+United States	location	21
+America	location	21
+TUC	organization	22
+Government	organization	22
+EU	organization	22
+TUC	organization	22
+Government	organization	22
+The Independent	organization	22
+TUC	organization	22
+Tories	organization	22
+European Union	organization	22
+Labour	organization	22
+Tories	organization	22
+Labour	organization	22
+Government	organization	22
+EU	organization	22
+Tories	organization	22
+EU	organization	22
+EU	organization	22
+The Independent	organization	22
+TUC	organization	22
+EU	organization	22
+EU	organization	22
+EU	organization	22
+Government	organization	22
+EU	organization	22
+Government	organization	22
+Government	organization	22
+Labour	person	22
+Frances	person	22
+Grady	person	22
+Theresa May	person	22
+Jack Dromey	person	22
+Ms May	person	22
+Theresa May	person	22
+rob British	person	22
+Melanie Onn	person	22
+laws	person	22
+Ms O'Grady	person	22
+Chancellor Angela Merkel	person	22
+Dave Prentis	person	22
+Theresa May	person	22
+UK	location	22
+UK	location	22
+Britain	location	22
+UK	location	22
+Britain	location	22
+UK	location	22
+UK	location	22
+Brussels	location	22
+Westminster	location	22
+Brussels	location	22
+Britain	location	22
+UK	location	22
+Germany	location	22
+New Zealand	location	22
+German Social Democratic Party	organization	23
+SPD	organization	23
+Der Spiegel	organization	23
+SPD	organization	23
+SPD	organization	23
+SPD	organization	23
+SPD	organization	23
+European Parliament	organization	23
+Tories	organization	23
+Angela Merkel	person	23
+Ms Merkel	person	23
+Ms Merkel	person	23
+Ms Merkel	person	23
+Ms Merkel	person	23
+Martin Schulz	person	23
+Mr Schulz	person	23
+Ms Merkel	person	23
+Chancellor Ms Merkel	person	23
+Mr Schulz	person	23
+Germany	location	23
+Germany	location	23
+Germany	location	23
+Brussels	location	23
+UK	location	23
+France	location	23
+White House	organization	24
+Vladimir Putin	person	24
+Alena Popova	person	24
+Olga Batalina	person	24
+Hitler	person	24
+Popova	person	24
+Donald Trump	person	24
+Margarita Grigoryan	person	24
+Maria Lipman	person	24
+Lipman	person	24
+Popova	person	24
+Lipman	person	24
+Maria Alekhina	person	24
+Alekhina	person	24
+Russia	location	24
+northern Europe	location	24
+Russia	location	24
+Washington	location	24
+DC	location	24
+Russia	location	24
+Moscow	location	24
+London	location	24
+Russia	location	24
+United States	location	24
+Russia	location	24
+Russia	location	24
+Russia	location	24
+Moscow	location	24
+White House	organization	25
+EU	organization	25
+House of Commons	organization	25
+John Bercow	person	25
+Bercow	person	25
+Bercow	person	25
+Bercow	person	25
+Donald Trump	person	25
+Trump	person	25
+Trump	person	25
+Trump	person	25
+Theresa May	person	25
+Trump	person	25
+Trump	person	25
+Trump	person	25
+Trump	person	25
+Trump	person	25
+Britain	location	25
+Britain	location	25
+Trump	location	25
+America	location	25
+US	location	25
+Britain	location	25
+White House	organization	26
+White House	organization	26
+CNN	organization	26
+Twitter	organization	26
+White House	organization	26
+Air Force	organization	26
+CNN	organization	26
+White House	organization	26
+Donald Trump	person	26
+Sean Spicer	person	26
+Trump	person	26
+Mia Ayliffe-Chung	person	26
+Trump	person	26
+Rosie Ayliffe	person	26
+Donald Trump	person	26
+Theresa May	person	26
+Teresa	person	26
+Malcolm Turnbull	person	26
+Abdul Numan Haider	person	26
+Lindsay Walters	person	26
+Spicer	person	26
+Trump	person	26
+David Gergen	person	26
+Trump	person	26
+Gergen	person	26
+Paris	location	26
+San Bernardino	location	26
+Sydney	location	26
+Germany	location	26
+San	location	26
+Middle East	location	26
+US	location	26
+Tampa	location	26
+Florida	location	26
+Europe	location	26
+Orlando	location	26
+Florida	location	26
+Paris	location	26
+Afghanistan	location	26
+Algeria	location	26
+Australia	location	26
+Israel	location	26
+Jerusalem	location	26
+Québec City	location	26
+Paris	location	26
+Denmark	location	26
+Australia	location	26
+Melbourne	location	26
+Berlin	location	26
+US	location	26
+San Bernardino	location	26
+German Government	organization	27
+Nato	organization	27
+Angela Merkel	person	27
+Donald Trump	person	27
+Mr Trump	person	27
+Mr Trump	person	27
+Ms Merkel	person	27
+Steffen Seibert	person	27
+Mr Seibert	person	27
+Ms Merkel	person	27
+Geneva	location	27
+Iraq	location	27
+Syria	location	27
+Iran	location	27
+Sudan	location	27
+Libya	location	27
+Somalia	location	27
+US	location	27
+Geneva	location	27
+resolute	location	27
+Government	organization	28
+Government	organization	28
+Government	organization	28
+Government	organization	28
+Communities	organization	28
+Government	organization	28
+Communities	organization	28
+laws	person	28
+Sajid Javid	person	28
+John Healey	person	28
+Theresa May	person	28
+Sajid	person	28
+Javid	person	28
+Britain	location	28
+Kensington Holiday Inn	organization	29
+Nazi	organization	29
+Nazi	organization	29
+The Independent	organization	29
+Police	organization	29
+Holiday Inn	organization	29
+The Independent	organization	29
+Nazi	organization	29
+Nazi	organization	29
+YouTube	organization	29
+Kensington Holiday Inn	organization	29
+David Irving	person	29
+Jason Reza	person	29
+Richard Spencer	person	29
+Ian Millard	person	29
+Adolf Hitler	person	29
+central London	location	29
+London	location	29
+London	location	29
+London	location	29
+London	location	29
+London	location	29
+London	location	29
+South West	location	29
+Wales	location	29
+Yorkshire	location	29
+New York	location	29
+United Nations	organization	30
+Orthodox	organization	30
+European Union	organization	30
+NATO	organization	30
+Foreign Ministry	organization	30
+NATO	organization	30
+Gazprom	organization	30
+Gazprom	organization	30
+United Nations	organization	30
+Security Council	organization	30
+Orthodox Church	organization	30
+United Nations	organization	30
+United Nations	organization	30
+European Union	organization	30
+Peace Research Institute Oslo	organization	30
+NATO	organization	30
+Gazprom	organization	30
+good relations	organization	30
+NATO	organization	30
+Stanislav Osadchiy	person	30
+Mr. Osadchiy	person	30
+Anastasiades	person	30
+Mr. Anastasiades	person	30
+Mr. Anastasiades	person	30
+Mr. Anastasiades	person	30
+Drousiotis	person	30
+Mr. Drousiotis	person	30
+Mr. Osadchiy	person	30
+Maria Zakharova	person	30
+Mr. Drousiotis	person	30
+Mr. Drousiotis	person	30
+Kofi Annan	person	30
+Annan	person	30
+eve	person	30
+Mr. Anastasiades	person	30
+Vladimir	person	30
+Chizhov	person	30
+Mr. Chizhov	person	30
+Harry Tzimitras	person	30
+Mr. Tzimitras	person	30
+Mr. Tzimitras	person	30
+Mr. Anastasiades	person	30
+Erdogan	person	30
+Mr. Anastasiades	person	30
+Mustafa Akinci	person	30
+Mr. Anastasiades	person	30
+Mr. Anastasiades	person	30
+Mr. Erdogan	person	30
+Mr. Anastasiades	person	30
+Mr. Anastasiades	person	30
+NICOSIA	location	30
+Cyprus	location	30
+Cyprus	location	30
+Russia	location	30
+Nicosia	location	30
+United States	location	30
+Geneva	location	30
+Cyprus	location	30
+Nicosia	location	30
+Geneva	location	30
+Cyprus	location	30
+Turkey	location	30
+Geneva	location	30
+Turkey	location	30
+Greece	location	30
+Britain	location	30
+Russia	location	30
+Russia	location	30
+Cyprus	location	30
+Moscow	location	30
+Moscow	location	30
+United States	location	30
+Europe	location	30
+Russia	location	30
+Cyprus	location	30
+Russia	location	30
+Cyprus	location	30
+Russia	location	30
+Cyprus	location	30
+Cyprus	location	30
+United States	location	30
+Europe	location	30
+Moscow	location	30
+America	location	30
+Europe	location	30
+Cyprus	location	30
+Cyprus	location	30
+Turkey	location	30
+Russia	location	30
+Nicosia	location	30
+Moscow	location	30
+Cyprus	location	30
+Moscow	location	30
+Russia	location	30
+Cyprus	location	30
+Russia	location	30
+Russia	location	30
+Moscow	location	30
+Russia	location	30
+Cyprus	location	30
+Geneva	location	30
+Cyprus	location	30
+Cyprus	location	30
+Turkey	location	30
+Greece	location	30
+eastern Mediterranean	location	30
+Russia	location	30
+Turkey	location	30
+Russia	location	30
+Mediterranean	location	30
+Cyprus	location	30
+Russia	location	30
+Moscow	location	30
+southern Cyprus	location	30
+Nicosia	location	30
+Russia	location	30
+Russia	location	30
+Russia	location	30
+Cyprus	location	30
+Russia	location	30
+Russia	location	30
+Russia	location	30
+Nicosia	location	30
+Nicosia	location	30
+Russia	location	30
+Russia	location	30
+Russia	location	30
+United States	location	30
+Greece	location	30
+Turkey	location	30
+Cyprus	location	30
+Turkey	location	30
+Cyprus	location	30
+northern Cyprus	location	30
+Ankara	location	30
+Russia	location	30
+Turkey	location	30
+Greece	location	30
+Britain	location	30
+Moscow	location	30
+Britain	location	30
+Cyprus	location	30
+Russia	location	30
+United States	location	30
+Cyprus	location	30
+UMP	organization	31
+UMP	organization	31
+Nicolas Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Serge Tournaire	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Jacques Chirac	person	31
+Chirac	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Alain Juppé	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+brand Hermès	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+Sarkozy	person	31
+US	location	31
+France	location	31
+France	location	31
+France	location	31
+Paris	location	31
+Lyon	location	31
+France	location	31
+Vladimir V. Putin	person	32
+President Trump	person	32
+Mr. Trump	person	32
+President Obama	person	32
+Mr. Putin	person	32
+Mr. Trump	person	32
+President Obama	person	32
+Mr. Putin	person	32
+Mr. Putin	person	32
+Mr. Putin	person	32
+Putin	person	32
+Putin	person	32
+President Trump	person	32
+Mr. Putin	person	32
+MOSCOW	location	32
+Russia	location	32
+Moscow	location	32
+Middle East	location	32
+Muslim	location	32
+Russia	location	32
+Russia	location	32
+Muslim	location	32
+Iraq	location	32
+Iran	location	32
+Russia	location	32
+Muslim	location	32
+Chechnya	location	32
+Muslim	location	32
+Russia	location	32
+Chechnya	location	32
+North Caucasus	location	32
+Russia	location	32
+United States	location	32
+Syria	location	32
+Teamsters	organization	33
+Congress	organization	33
+Congress	organization	33
+Center of Research	organization	33
+World Trade Organization	organization	33
+Peterson Institute	organization	33
+Peterson Institute	organization	33
+Ildefonso Guajardo Villarreal	person	33
+George W. Bush	person	33
+Senator Patty Murray	person	33
+Senator Ron Wyden	person	33
+Trump	person	33
+Luis Rubio	person	33
+Enrique Peña Nieto	person	33
+Donald J. Trump	person	33
+Mr. Peña Nieto	person	33
+Mr. Trump	person	33
+Mr. Guajardo Villarreal	person	33
+Mr. Trump	person	33
+Mr. Guajardo Villarreal	person	33
+Mr. Guajardo Villarreal	person	33
+Jorge Castañeda	person	33
+Mr. Peña Nieto	person	33
+Mr. Castañeda	person	33
+Mr. Trump	person	33
+Mr. Castañeda	person	33
+sue	person	33
+Mr. Trump	person	33
+Trump	person	33
+Chad Bown	person	33
+Mr. Bown	person	33
+Trump	person	33
+Mr. Rubio	person	33
+Trump	person	33
+Trump	person	33
+Mexico	location	33
+United States	location	33
+North American	location	33
+United States	location	33
+United States	location	33
+Washington	location	33
+Mexico	location	33
+United States	location	33
+Mexico	location	33
+United States	location	33
+Mexico	location	33
+Mexico	location	33
+Mexico	location	33
+Washington	location	33
+Oregon	location	33
+United States	location	33
+Mexico	location	33
+Mexico	location	33
+United States	location	33
+Mexico	location	33
+North American	location	33
+Mexico	location	33
+Mexico City	location	33
+Mexico	location	33
+Mexico City	location	33
+Mexico	location	33
+Mexico	location	33
+Mexico	location	33
+United States	location	33
+Mexico	location	33
+Ford	location	33
+Hermosillo	location	33
+northern Mexico	location	33
+Mexico	location	33
+United States	location	33
+Mexico	location	33
+Mexico	location	33
+Mexico	location	33
+United States	location	33
+United States	location	33
+United States	location	33
+United States	location	33
+Mexico	location	33
+Mexico	location	33
+United States	location	33
+Mexico	location	33
+United States	location	33
+Canada	location	33
+Mexico	location	33
+United States	location	33
+Mexico	location	33
+Mexico	location	33
+Mexico	location	33
+United States	location	33
+United States	location	33
+America	location	33
+Mexico	location	33
+China	location	33
+Mexico	location	33
+Mexico	location	33
+United States	location	33
+Mexico	location	33
+United States	location	33
+Government	organization	34
+Government	organization	34
+Business	organization	34
+Government	organization	34
+High Court	organization	34
+International Development Committee	organization	34
+Business Committee	organization	34
+European Parliament	organization	34
+Ministry of Defence	organization	34
+United Nations	organization	34
+Government	organization	34
+Government	organization	34
+Government	organization	34
+Edward Bell	person	34
+Javid	person	34
+Mr Bell	person	34
+Mr Javid	person	34
+Trade	person	34
+Javid	person	34
+Liam Fox	person	34
+Trade	person	34
+Saudi Arabia	location	34
+London	location	34
+UK	location	34
+Saudi Arabia	location	34
+the Gulf	location	34
+Saudi Arabia	location	34
+UK	location	34
+UK	location	34
+Saudi Arabia	location	34
+EU	organization	35
+UN	organization	35
+UN	organization	35
+Theresa May	person	35
+Syria	location	35
+Asia	location	35
+Latin America	location	35
+Europe	location	35
+Mediterranean	location	35
+Malta	location	35
+Europe	location	35
+UK	location	35
+Asia	location	35
+Latin America	location	35
+Greece	location	35
+eastern Europe	location	35
+UK	location	35
+Syria	location	35
+Britain	location	35
+UK	location	35
+Harvard Business Review Press	organization	36
+Land-Grant College	organization	36
+Republican	organization	36
+Harvard University	organization	36
+Republican	organization	36
+Republicans	organization	36
+House	organization	36
+dawn	person	36
+J. Bradford	person	36
+Stephen Cohen	person	36
+Simon	person	36
+Schuster	person	36
+Jacob S. Hacker	person	36
+Paul Pierson	person	36
+Alexander Hamilton	person	36
+foster America	person	36
+Lawrence Summers	person	36
+President Obama	person	36
+Lawrence F. Katz	person	36
+Donald J. Trump	person	36
+Paul D. Ryan	person	36
+America	location	36
+United States	location	36
+Washington	location	36
+America	location	36
+Germany	location	36
+Japan	location	36
+United States	location	36
+ABC	organization	37
+Sky News	organization	37
+Mathias Cormann	person	37
+Senator Cormann	person	37
+Senator Nick Xenophon	person	37
+Kate Ellis	person	37
+Apple Inc	organization	38
+Google Inc	organization	38
+Microsoft	organization	38
+U.S. Circuit Court of Appeals	organization	38
+Tesla Inc	organization	38
+SpaceX	organization	38
+Uber Technologies Inc	organization	38
+UBER	organization	38
+Republican	organization	38
+Facebook Inc	organization	38
+Twitter Inc	organization	38
+Intel Corp	organization	38
+eBay Inc	organization	38
+Netflix Inc and Uber Technologies	organization	38
+Levi Strauss & Co	organization	38
+Chobani	organization	38
+Google	organization	38
+Facebook	organization	38
+Uber	organization	38
+President Donald Trump	person	38
+Trump	person	38
+Travis Kalanick	person	38
+Trump	person	38
+U.S District	person	38
+Judge James Robart	person	38
+Trump	person	38
+Trump	person	38
+Trump	person	38
+Trump	person	38
+United States	location	38
+San Francisco	location	38
+U.S.	location	38
+United States	location	38
+Seattle	location	38
+Washington	location	38
+Minnesota	location	38
+United States	location	38
+United States	location	38
+U.S.	location	38
+United States	location	38
+Silicon Valley	location	38
+America	location	38
+EU	organization	39
+House of Commons	organization	39
+EU	organization	39
+G8	organization	39
+Nato	organization	39
+Government	organization	39
+Government	organization	39
+NHS	organization	39
+National Union of Mineworkers	organization	39
+European Union	organization	39
+Cabinet	organization	39
+Cabinet	organization	39
+Theresa May	person	39
+Donald Trump	person	39
+rein	person	39
+Boris Johnson	person	39
+David Davis	person	39
+Liam Fox	person	39
+Philip Hammond	person	39
+Hammond	person	39
+Margaret Thatcher	person	39
+General Galtieri	person	39
+David Cameron	person	39
+Michael Fallon	person	39
+Damian Green	person	39
+Amber Rudd	person	39
+Blair	person	39
+Mrs Thatcher	person	39
+Anthony Eden	person	39
+Alec Douglas-Home	person	39
+Jim Callaghan	person	39
+Gordon Brown	person	39
+Washington	location	39
+US	location	39
+Turkey	location	39
+Cardiff	location	39
+Dublin	location	39
+UK	location	39
+Malta	location	39
+UK	location	39
+United Kingdom	location	39
+Scotland	location	39
+United Kingdom	location	39
+United Kingdom	location	39
+Churchill	location	39
+Government	organization	40
+Government	organization	40
+Business	organization	40
+Government	organization	40
+High Court	organization	40
+International Development Committee	organization	40
+Business Committee	organization	40
+European Parliament	organization	40
+Ministry of Defence	organization	40
+United Nations	organization	40
+Government	organization	40
+Government	organization	40
+Government	organization	40
+Edward Bell	person	40
+Javid	person	40
+Mr Bell	person	40
+Mr Javid	person	40
+Trade	person	40
+Javid	person	40
+Liam Fox	person	40
+Trade	person	40
+Saudi Arabia	location	40
+London	location	40
+UK	location	40
+Saudi Arabia	location	40
+the Gulf	location	40
+Saudi Arabia	location	40
+UK	location	40
+UK	location	40
+Saudi Arabia	location	40
+Cristiano Ronaldo	person	41
+Ronaldo	person	41
+da Lili	person	41
+Ronaldo	person	41
+Ronaldo	person	41
+Liliana Santos	person	41
+Gloria Carvalho	person	41
+Ronaldo	person	41
+Ronaldo	person	41
+Portugal	location	41
+Madrid	location	41
+Portugal	location	41
+Syria	location	41
+Manchester	location	41
+Cristiano Ronaldo	person	42
+Ronaldo	person	42
+Ronaldo	person	42
+Cristiano	person	42
+Sergio	person	42
+Ronaldo	person	42
+Ronaldo	person	42
+Madrid	location	42
+Portugal	location	42
+Santiago	location	42
+Madrid	location	42
+Madrid	location	42
+Porto	location	42
+captain Philipp Lahm	person	43
+FC Bayern	person	43
+DFB Cup	person	43
+FC Bayern	person	43
+Lahm	person	43
+Cup	person	43
+Lahm	person	43
+Cup	person	43
+Cup	person	43
+Bayern	location	43
+Munich	location	43
+Bayern	location	43
+Bayern	location	43
+Germany	location	43
+Bayern	location	43
+Stuttgart	location	43
+Bayern	location	43
+Germany	location	43
+International Olympic Committee	organization	44
+Kasumigaseki Country Club	organization	44
+IOC	organization	44
+Kasumigaseki	organization	44
+IOC	organization	44
+Koike	person	44
+Koike	person	44
+Kimura	person	44
+Mr Kimura	person	44
+Tokyo	location	44
+Saitama	location	44
+north Tokyo	location	44
+Tokyo	location	44
+Tokyo	location	44
+New York Times	organization	45
+World Anti-Doping Agency	organization	45
+Wada	organization	45
+New York Times	organization	45
+International Olympic Committee	organization	45
+International Association of Athletics Federation	organization	45
+New York Times	organization	45
+IOC	organization	45
+IOC	organization	45
+Winter Olympics	person	45
+Richard McLaren	person	45
+Anna Antseliovich	person	45
+Professor McLaren	person	45
+Dr Grigory Rodchenkov	person	45
+Winter Olympics	person	45
+Antseliovich	person	45
+Smirnov	person	45
+Vladimir Putin	person	45
+Olympic	person	45
+Smirnov	person	45
+Smirnov	person	45
+Winter Olympics	person	45
+summer Olympic	person	45
+Winter Games	person	45
+Russia	location	45
+Russia	location	45
+Russia	location	45
+Sochi	location	45
+Russia	location	45
+Russia	location	45
+Russia	location	45
+Sochi	location	45
+Beijing	location	45
+London	location	45
+Vancouver	location	45
+Premier	organization	46
+Adam Lallana	person	46
+Antonio Conte	person	46
+Lallana	person	46
+Lallana	person	46
+Echo	person	46
+James Milner	person	46
+John Barnes	person	46
+Liverpool	location	46
+Chelsea	location	46
+Hull City	location	46
+Liverpool	location	46
+Burnley	location	46
+Bournemouth	location	46
+Swansea City	location	46
+Hull	location	46
+Chelsea	location	46
+Arsenal	location	46
+Tottenham	location	46
+Middlesbrough	location	46
+Crystal Palace	location	46
+Sunderland	location	46
+Liverpool	location	46
+Chelsea	location	46
+Liverpool	location	46
+Manchester City	location	46
+Chelsea	location	46
+Liverpool	location	46
+Everton	location	46
+Tottenham	location	46
+Chelsea	location	46
+Liverpool	location	46
+Barnes	location	46
+Liverpool	location	46
+Premier	organization	47
+Football Association	organization	47
+Premier	organization	47
+Premier	organization	47
+Wolverhampton Wanderers	organization	47
+Klopp	person	47
+Neil Swarbrick	person	47
+Simon Mignolet	person	47
+Klopp	person	47
+Anthony Taylor	person	47
+Klopp	person	47
+Klopp	person	47
+Klopp	person	47
+FA Cup	person	47
+EFL Cup	person	47
+FA Cup	person	47
+Liverpool	location	47
+Chelsea	location	47
+Manchester	location	47
+Hull City	location	47
+Chelsea	location	47
+Liverpool	location	47
+The Guardian	organization	48
+Premier	organization	48
+The Guardian	organization	48
+Bolt	person	48
+Bolt	person	48
+Bolt	person	48
+Thomas Tuchel	person	48
+Tuchel	person	48
+Bolt	person	48
+Bolt	person	48
+Bolt	person	48
+Jose Mourinho	person	48
+Bolt	person	48
+Manchester	location	48
+Fulham	location	48
+London	location	48
+Manchester	location	48
+International Olympic Committee	organization	49
+McLaren	person	49
+Richard McLaren	person	49
+McLaren	person	49
+Winter Olympics	person	49
+McLaren	person	49
+McLaren	person	49
+Rio Games	person	49
+McLaren	person	49
+Winter Olympics	person	49
+Russia	location	49
+Sochi	location	49
+London	location	49
+Moscow	location	49
+Sochi	location	49
+Reading	location	49
+London	location	49
+Moscow	location	49
+Moscow	location	49
+Sochi	location	49
+Shawn Barber	person	50
+Barber	person	50
+Barber	person	50
+Barber	person	50
+Barber	person	50
+Barber	person	50
+Barber	person	50
+Paul Greene	person	50
+Barber	person	50
+Rio	location	50
+Rio	location	50
+Canada	location	50
+Canada	location	50
+Rio Games	person	51
+Rio	person	51
+Justin Gatlin	person	51
+Gatlin	person	51
+Rio	person	51
+Olympic Stadium	location	51
+London	location	51
+Beijing	location	51
+China	location	51
+London	location	51
+Rio	location	51
+Facebook	organization	52
+Premier	organization	52
+Facebook	organization	52
+BT	organization	52
+Facebook	organization	52
+Premier	organization	52
+Facebook	organization	52
+Facebook	organization	52
+Major League Soccer	organization	52
+Indian Premier	organization	52
+Facebook	organization	52
+Fox	organization	52
+Facebook	organization	52
+Facebook	organization	52
+Facebook	organization	52
+Facebook	organization	52
+International Olympic Committee	organization	52
+Facebook	organization	52
+Facebook	organization	52
+Premier	organization	52
+Facebook	organization	52
+United	organization	52
+WPP	organization	52
+WPP	organization	52
+BT	organization	52
+Sky Sports	person	52
+Dan Reed	person	52
+Hala Madrid	person	52
+Ed Woodward	person	52
+Martin Sorrell	person	52
+Sky Sports	person	52
+Amazon	location	52
+London	location	52
+Reed	location	52
+United States	location	52
+Madrid	location	52
+US	location	52
+Reed	location	52
+Reed	location	52
+Amazon	location	52
+Amazon	location	52
+Manchester	location	52
+London	location	52
+Premier	organization	53
+Facebook	organization	53
+NBA	organization	53
+NFL	organization	53
+Saint-Germain	person	53
+Antonio Conte	person	53
+Hungary	location	53
+Brazil	location	53
+Holland	location	53
+Russia	location	53
+Germany	location	53
+Spain	location	53
+superior	location	53
+Bayern	location	53
+Munich	location	53
+Barcelona	location	53
+Barcelona	location	53
+Bayern	location	53
+Qatar	location	53
+Paris	location	53
+Madrid	location	53
+Barcelona	location	53
+Hollywood	location	53
+England	location	53
+Madrid	location	53
+Barcelona	location	53
+Brazil	location	53
+Spain	location	53
+Italy	location	53
+England	location	53
+Spain	location	53
+Europe	location	53
+Premier	organization	54
+Premier	organization	54
+Premier	organization	54
+Premier	organization	54
+Premier	organization	54
+Premier	organization	54
+Premier	organization	54
+Sky	organization	54
+BT	organization	54
+Richard Scudamore	person	54
+Ivan Gazidis	person	54
+London	location	54
+Mayfair	location	54
+Arsenal	location	54
+Manchester City	location	54
+Manchester	location	54
+Arsenal	location	54
+Liverpool	location	54
+Chelsea	location	54
+Tottenham	location	54
+WTA	organization	55
+Andy Murray	person	55
+Johanna Konta	person	55
+Konta	person	55
+Gordon Reid	person	55
+Jamie Murray	person	55
+Heather Watson	person	55
+Henri Kontinen	person	55
+Dan Evans	person	55
+Kyle Edmunds	person	55
+Roger Federer	person	55
+Rafael Nadal	person	55
+Murray	person	55
+Federer	person	55
+Murray	person	55
+Edmund	person	55
+Murray	person	55
+Evans	person	55
+Konta	person	55
+Konta	person	55
+Watson	person	55
+Laura Robson	person	55
+Jay Clarke	person	55
+Jack Draper	person	55
+Katie Swan	person	55
+Gabriella Taylor	person	55
+Murray	person	55
+Konta	person	55
+Wimbledon	location	55
+Wimbledon	location	55
+Britain	location	55
+Wimbledon	location	55
+Wimbledon	location	55
+Britain	location	55
+Britain	location	55
+Britain	location	55
+FA	organization	56
+FA	organization	56
+Berkshire School	organization	56
+New York City	organization	56
+FA	organization	56
+FA	organization	56
+Berkshire School	organization	56
+New York City	organization	56
+Twitter	organization	56
+Jack Harrison	person	56
+Harrison	person	56
+Burton	person	56
+Harrison	person	56
+None	person	56
+None	person	56
+Marcus Rashford	person	56
+Debbie	person	56
+Harrison	person	56
+Jack Harrison	person	56
+Harrison	person	56
+Burton	person	56
+Harrison	person	56
+None	person	56
+None	person	56
+Marcus Rashford	person	56
+Debbie	person	56
+Harrison	person	56
+David Villa	person	56
+Andrea Pirlo	person	56
+Frank Lampard	person	56
+Patrick Vieira	person	56
+Harrison	person	56
+David Villa	person	56
+England	location	56
+America	location	56
+London	location	56
+New York City	location	56
+Heathrow	location	56
+St George's Park	location	56
+Scotland	location	56
+Andorra	location	56
+New York City	location	56
+Chicago	location	56
+Chicago	location	56
+JFK	location	56
+London	location	56
+Heathrow	location	56
+London	location	56
+New York	location	56
+St George's	location	56
+Stoke	location	56
+Manchester	location	56
+America	location	56
+Sheffield	location	56
+Massachusetts	location	56
+England	location	56
+America	location	56
+London	location	56
+New York City	location	56
+Heathrow	location	56
+St George's Park	location	56
+Scotland	location	56
+Andorra	location	56
+New York City	location	56
+Chicago	location	56
+Chicago	location	56
+JFK	location	56
+London	location	56
+Heathrow	location	56
+London	location	56
+New York	location	56
+St George's	location	56
+Stoke	location	56
+Manchester	location	56
+America	location	56
+Sheffield	location	56
+Massachusetts	location	56
+Maria Bartomeu	person	57
+Barcelona	location	57
+Spain	location	57
+Barcelona	location	57
+Las Palmas	location	57
+Barcelona	location	57
+England	location	57
+France	location	57
+Italy	location	57
+Spain	location	57
+Monaco	location	57
+Swansea	location	57
+Arsenal	organization	58
+Premier	organization	58
+Alexandre Lacazette	person	58
+Lacazette	person	58
+SFR Sport	person	58
+Lacazette	person	58
+Lacazette	person	58
+Thierry Henry	person	58
+Henry	person	58
+Lyon	location	58
+Arsenal	location	58
+Arsenal	location	58
+Arsenal	location	58
+Mercedes	organization	59
+Fuji	organization	59
+Mercedes	organization	59
+Lewis Hamilton	person	59
+Sebastian Vettel	person	59
+Hamilton	person	59
+Vettel	person	59
+Vettel	person	59
+Hamilton	person	59
+Hamilton	person	59
+Vettel	person	59
+Vettel	person	59
+Hamilton	person	59
+Vettel	person	59
+Hamilton	person	59
+Hamilton	person	59
+Hamilton	person	59
+Hamilton	person	59
+Malaysia	location	59
+Malaysia	location	59
+Singapore	location	59
+Japan	location	59
+Silverstone	location	59
+Malaysia	location	59
+Singapore	location	59
+Honda	organization	60
+Honda	organization	60
+Renault	organization	60
+Renault	organization	60
+Honda	organization	60
+Toyota	organization	60
+BMW	organization	60
+Honda	organization	60
+Honda	organization	60
+Honda	organization	60
+Honda	organization	60
+FOM	organization	60
+Renault	organization	60
+Mercedes	organization	60
+Ferrari	organization	60
+Red Bull	organization	60
+Renault	organization	60
+Renault	organization	60
+Fernando Alonso	person	60
+Alonso	person	60
+Ron Dennis	person	60
+Boullier	person	60
+Boullier	person	60
+Alonso	person	60
+Zak Brown	person	60
+Brown	person	60
+Boullier	person	60
+Alonso	person	60
+Boullier	person	60
+Brown	person	60
+Martin	person	60
+Alonso	person	60
+Alonso	person	60
+Alonso	person	60
+hide	person	60
+Brazil	location	60
+Singapore	location	60
+Woking	location	60
+Aston	location	60
+University of Illinois	organization	61
+Elizabeth C Schroeder	person	61
+Schroeder	person	61
+Schroeder	person	61
+UK	location	61
+UK	location	61
+University of Essex	organization	62
+US	location	62
+Slovakia	location	62
+US	location	62
+La.	location	62
+ups	organization	63
+Boston	location	63
+Boston	location	63
+Larissa	person	64
+Larissa	person	64
+Larissa	person	64
+Larissa	person	64
+Brock	person	64
+Fernette	person	64
+Elizabeth Loftus	person	66
+Nick Enfield	person	66
+dane	person	66
+Edge	location	66
+Enfield	location	66
+Loftus	location	66
+Jessie	person	68
+Bye Felipe	person	68
+Instagram	person	68
+Whitney Cummings	person	68
+Valerie Stark	person	68
+Stark	person	68
+verify	person	68
+Louise Troen	person	68
+Whitney Wolfe	person	68
+Troen	person	68
+Wolfe	person	68
+Connor	person	68
+UK	location	68
+US	location	68
+YouTube	organization	69
+handy	person	69
+London	location	69
+Santander	location	69
+Glasgow	location	69
+Manchester	location	69
+Cambridge	location	69
+Bern	location	69
+Business Economics Department	organization	70
+Janunary	person	70
+Thailand	location	70
+Thailand	location	70
+EC	organization	71
+European Community	organization	71
+EC	organization	71
+European Commission	organization	71
+North Yemen	location	72
+Australian Sugar Producers' Association	organization	73
+Mills	person	73
+mills	person	73
+Brisbane	location	73
+southern Queensland	location	73
+EC	organization	74
+European Community	organization	74
+EC	organization	74
+London	location	74
+EC	organization	75
+EC	organization	75
+UK	location	75
+UK	location	75
+U.K. INTERVENTION BOARD	organization	76
+EC	organization	76
+European	organization	76
+European Community	organization	76
+EC	organization	76
+U.K. Intervention Board	organization	76
+U.K.	location	76
+France	location	76
+West Germany	location	76
+Belgium	location	76
+Spain	location	76
+Denmark	location	76
+London	location	76
+Paris	location	76
+Reuters	organization	77
+the
+  Netherlands	location	77
+the Netherlands	location	77
+EC COMMISSION	organization	78
+EC Commission	organization	78
+France	location	78
+U.K.	location	78
+West-Germany	location	78
+Belgium	location	78
+Spain	location	78
+Denmark	location	78
+EC	organization	79
+EC	organization	79
+EC	organization	79
+EC	organization	79
+CARGILL	location	80
+London	location	80
+Cargill	location	80
+U.K.	location	80
+India	location	80
+India	location	80
+THAILAND	location	81
+Thailand	location	81
+Algeria	location	81
+West Germany	location	82
+Lyle Plc	organization	83
+LYLE LONDON JETTY	person	83
+jetty	person	83
+jetty	person	83
+Lyle	person	83
+Lyle	person	83
+Silvertown	location	83
+River	location	83
+Thames	location	83
+Maputo	location	83
+Swaziland	location	83
+Silvertown	location	83
+Fiji Sugar Marketing	organization	84
+LONDON	location	84
+Fiji	location	84
+Japan	location	84
+Antwerp	location	84
+Greece	location	84
+Inchon	location	84
+India	location	84
+Reunion	location	84
+Portugal	location	84
+House of Representatives	organization	85
+Congress	organization	85
+None	person	85
+SUGAR	person	85
+John Porter	person	85
+Porter	person	85
+Sugar	person	85
+U.S.	location	85
+Ill.	location	85
+U.S.	location	85
+HAITIAN	organization	86
+Haitian American Sugar Company	organization	86
+President Jean-Claude Duvalier	person	86
+Georges D. Rigaud	person	86
+Rigaud	person	86
+Rigaud	person	86
+Duvalier	person	86
+Duvalier	person	86
+Rigaud	person	86
+Rigaud	person	86
+Lucien Felix	person	86
+Miami	location	86
+Dominican Republic	location	86
+Haiti	location	86
+North Yemen	location	87
+PAKISTAN	location	88
+Pakistan	location	88
+HAITIAN	organization	89
+Haitian American Sugar Company	organization	89
+Port-au-Prince	location	89
+Haiti	location	89
+Haiti	location	89
+Dominican Republic	location	89
+U.S.	location	89
+Miami	location	89
+CHINA	location	90
+south China	location	90
+Guangdong	location	90
+China	location	90
+Hong Kong	location	90
+Macao	location	90
+China	location	90
+China	location	90
+COPPERBELT	person	91
+Copperbelt	person	91
+President Kaunda	person	91
+Kaunda	person	91
+Copperbelt	person	91
+Copperbelt	person	91
+ZAMBIA	location	91
+northern Copperbelt	location	91
+Lusaka	location	91
+Zambia	location	91
+News Agency	organization	92
+Farmers Daily	person	92
+Nanfang Daily	person	92
+mills	person	92
+Farmers Daily	person	92
+mills	person	92
+Mills	person	92
+mills	person	92
+Peking	person	92
+CHINA	location	92
+China	location	92
+March	location	92
+Yunnan	location	92
+Guangxi	location	92
+China	location	92
+Guangdong	location	92
+Guangdong	location	92
+Fujian	location	92
+south China	location	92
+Guangdong	location	92
+Fujian	location	92
+Heilongjiang	location	92
+China	location	92
+China	location	92
+China	location	92
+China	location	92
+Qinghai	location	92
+Mongolia	location	92
+south China	location	92
+Cuba	location	92
+China	location	92
+China	location	92
+China	location	92
+Thailand	location	93
+New York	location	93
+Fiji Sugar Corp	organization	94
+Fiji Sugar Corp	organization	94
+Fiji Development Bank	organization	94
+FDB	organization	94
+FDB	organization	94
+Sir Penaia Ganilau	person	94
+Ganilau	person	94
+mills	person	94
+mills	person	94
+Rarawai mills	person	94
+Ganilau	person	94
+Ganilau	person	94
+Ganilau	person	94
+Ganilau	person	94
+FIJI	location	94
+Fiji	location	94
+Fiji	location	94
+Fiji	location	94
+Penang	location	94
+Fiji	location	94
+China	location	95
+London	location	95
+China	location	95
+WORLD BANK	organization	96
+World Bank	organization	96
+Bank	organization	96
+Bank	organization	96
+Bank	organization	96
+Achmad Affandi	person	96
+Affandi	person	96
+Affandi	person	96
+Affandi	person	96
+INDONESIA	location	96
+Indonesia	location	96
+Indonesia	location	96
+The Hague	location	96
+Indonesia	location	96
+east Asia	location	96
+Indonesia	location	96
+Indonesia	location	96
+WORLD BANK	organization	97
+World Bank	organization	97
+Bank	organization	97
+Bank	organization	97
+Bank	organization	97
+Achmad Affandi	person	97
+Affandi	person	97
+Affandi	person	97
+Affandi	person	97
+INDONESIA	location	97
+Indonesia	location	97
+Indonesia	location	97
+The Hague	location	97
+Indonesia	location	97
+east Asia	location	97
+Indonesia	location	97
+Indonesia	location	97
+Soviet Union	organization	98
+Soviet Union	organization	98
+W. EUROPE	person	98
+F.O. Licht	person	98
+Licht	person	98
+Licht	person	98
+Europe	location	98
+southeastern Europe	location	98
+Sweden	location	98
+Denmark	location	98
+United Kingdom	location	98
+France	location	98
+Belgium	location	98
+the Netherlands	location	98
+West Germany	location	98
+Czechoslovakia	location	98
+eastern Europe	location	98
+Spain	location	98
+WOODHOUSE	location	99
+China	location	99
+London	location	99
+Woodhouse	location	99
+Carey	location	99
+China	location	99
+New
+  York	location	99
+New York	location	99
+Woodhouse	location	99
+Western Hemisphere	location	99
+Dominican Republic	location	99
+New
+  York	location	99
+the Far East	location	99
+Whitehouse	location	99
+INDONESIAN	organization	100
+COMMODITY EXCHANGE	organization	100
+Indonesian Commodity Exchange	organization	100
+Reuters	organization	100
+Total	organization	100
+Paian
+  Nainggolan	person	100
+Minister	person	100
+Saleh	person	100
+Nainggolan	person	100
+Minister Saleh	person	100
+Nainggolan	person	100
+Indonesia	location	100
+Indonesia	location	100
+South Korea	location	100
+Taiwan	location	100
+Europe	location	100
+Mexico	location	100
+National Planning Department	organization	101
+Samuel Alberto Yohai	person	101
+COLOMBIA	location	101
+Colombia	location	101
+Colombia	location	101
+National Coffee Growers' Federation	organization	102
+CARDENAS	person	102
+Jorge Cardenas	person	102
+Colombia	location	102
+New York	location	102
+Reuters	organization	103
+Arango	person	103
+Arango	person	103
+Arango	person	103
+COLOMBIA	location	103
+Colombia	location	103
+Colombia	location	103
+Colombia	location	103
+FRANCA	person	104
+CARLOS	person	104
+SIMAO	person	104
+SAO PAULO	location	104
+SAO	location	104
+SAO	location	104
+Coffee Board of Kenya	organization	105
+AA	organization	105
+PRICE PER	person	105
+Kenya	location	105
+COLOMBIA	location	106
+colombia	location	106
+COLOMBIA	location	107
+Colombia	location	107
+Coffee Marketing Board	organization	108
+CMB	organization	108
+CMB	organization	108
+CMB	organization	108
+CMB	organization	108
+New Vision	person	108
+President Yoweri Museveni	person	108
+UGANDA	location	108
+Uganda	location	108
+Mombasa	location	108
+Uganda	location	108
+Kampala	location	108
+Uganda	location	108
+Uganda	location	108
+Co Inc	organization	109
+PATON	person	109
+George Gordon Paton	person	109
+U.S.	location	109
+U.S.	location	109
+COLOMBIA	location	110
+Colombia	location	110
+Colombia	location	110
+ICO	person	111
+Mario Fernandez	person	111
+ICO	person	111
+Fernandez	person	111
+GUATEMALA	location	111
+Guatemala	location	111
+Mexico	location	111
+Dominican
+  Republic	location	111
+Peru	location	111
+Ecuador	location	111
+India	location	111
+Papua New Guinea	location	111
+Costa Rica	location	111
+France	location	112
+Togo	location	112
+International Coffee Organization	organization	113
+Mexican Coffee Institute	organization	113
+IMC	organization	113
+LEAVE ICO	person	113
+ICO	person	113
+IMC	person	113
+ICO	person	113
+ICO	person	113
+MEXICO	location	113
+Mexico	location	113
+Brazil	location	113
+Mexico	location	113
+Brazil	location	113
+Rio de
+  Janeiro	location	113
+EUROPEAN	organization	114
+Reuters	organization	114
+Government	organization	114
+Government	organization	114
+European Community	organization	114
+EC	organization	114
+Brazilian Coffee Institute	organization	114
+ICO	person	114
+ICO	person	114
+ICO	person	114
+ICO	person	114
+Brazil	location	114
+Brazil	location	114
+Germany	location	114
+Italy	location	114
+Germany	location	114
+U.S.	location	114
+Brazil	location	114
+U.S.	location	114
+Brazil	location	114
+Brazilian Coffee Institute	organization	115
+Reuters	organization	115
+Banco do Brasil	organization	115
+London	location	115
+International Coffee Organization	organization	116
+Trade Association	organization	116
+ECF	organization	116
+ICO	person	116
+Frits van Horick	person	116
+Van Horick	person	116
+van Horick	person	116
+ICO	person	116
+van Horick	person	116
+van Horick	person	116
+van Horick	person	116
+ICO	person	116
+van Horick	person	116
+van Horick	person	116
+Brazil	location	116
+Brazil	location	116
+Brazil	location	116
+Colombia	location	116
+Kenya	location	116
+Indonesia	location	116
+Costa Rica	location	116
+Ivory Coast	location	116
+El
+  Salvador	location	116
+Nicaragua	location	116
+Brazil	location	116
+Brazil	location	116
+International Coffee Organization	organization	117
+Jon Rosenbaum	person	117
+Rosenbaum	person	117
+Rosenbaum	person	117
+Jorge Cardenas	person	117
+Cardenas	person	117
+Rosenbaum	person	117
+Cardenas	person	117
+Rosenbaum	person	117
+ICO	person	117
+Frits van Horick	person	117
+COLOMBIA	location	117
+U.S.	location	117
+U.S.	location	117
+U.S.	location	117
+Colombia	location	117
+Brazil	location	117
+Brazil	location	117
+Bogota	location	117
+Europe	location	117
+U.S.	location	117
+Colombia	location	117
+Amsterdam	location	117
+Brazil	location	117
+U.S.	location	117
+RIO DE JANEIRO	location	118
+RIO DE JANEIRO	location	118
+IBC	organization	119
+IBC	organization	119
+IBC	organization	119
+BRAZIL	location	119
+Brazil	location	119
+U.S. Agriculture Department	organization	120
+USDA	organization	120
+Fraternite	person	120
+Matin	person	120
+Fraternite Matin	person	120
+Denis Bra Kanon	person	120
+Fraternite Matin	person	120
+IVORY COAST	location	120
+Ivory Coast	location	120
+northern savannah	location	120
+London	location	120
+Duffus	location	120
+Ivory Coast	location	120
+Ivory Coast	location	120
+Reserve Bank of India	organization	121
+RBI	person	121
+mica	person	121
+RBI	person	121
+castor	person	121
+RBI	person	121
+RBI	person	121
+INDIA	location	121
+India	location	121
+Brazilian Coffee Institute	organization	122
+DAUSTER	person	122
+Jorio Dauster	person	122
+Dauster	person	122
+ICO	person	122
+Dauster	person	122
+ICO	person	122
+United States	location	122
+Brazil	location	122
+Brazil	location	122
+London	location	122
+National Coffee Association	organization	123
+Office of U	organization	123
+Congress	organization	123
+Paine Webber	organization	123
+Bernie Savaiko	person	123
+U.S.	location	123
+U.S.	location	123
+U.S.	location	123
+U.S.	location	123
+U.S.	location	123
+U.S.	location	123
+U.S.	location	123
+U.S.	location	123
+Brazilian Coffee Institute	organization	124
+IBC	organization	124
+Reuters	organization	124
+Coffee Policy Council	organization	124
+IBC	organization	124
+IBC	organization	124
+IBC	organization	124
+IBC	person	124
+IBC	person	124
+IBC President	person	124
+ICO	person	124
+Sao Paulo	location	124
+Brasilia	location	124
+Brazil	location	124
+ICO EXECUTIVE BOARD	organization	125
+International Coffee Organization	organization	125
+Executive Board	organization	125
+ICO Board	organization	125
+Promotion Fund	organization	125
+ICO	person	125
+ICO	person	125
+Bruno Caron	person	125
+France	location	125
+Papua New Guinea	location	125
+COLOMBIA	location	126
+Colombia	location	126
+Marketing Ministry	organization	127
+R. Sendi	person	127
+Sendi	person	127
+UGANDA	location	127
+Uganda	location	127
+Europe	location	127
+Uganda	location	127
+Paris	location	127
+Uganda	location	127
+Uganda	location	127
+U.S.	location	127
+Shearson Lehman Bros	organization	128
+Gerald	person	128
+Clancy	person	128
+Howard Katz	person	128
+Katz	person	128
+Clancy	person	128
+Charles Nastro	person	128
+Anthony Maccia	person	128
+Clifford Evans	person	128
+New York	location	128
+Woodhouse	location	128
+Carey	location	128
+International Coffee Organization	organization	129
+Coffee Committee	organization	129
+CARDENAS	person	129
+Jorge Cardenas	person	129
+ICO	person	129
+ICO	person	129
+Cardenas	person	129
+Cesar Gaviria	person	129
+Jorio Dauster	person	129
+Cardenas	person	129
+ICO	person	129
+Colombia	location	129
+London	location	129
+London	location	129
+Brazil	location	129
+United States	location	129
+Brazil	location	129
+Brazil	location	129
+Bank of America	organization	130
+Bank of America	organization	130
+Commerce Department	organization	130
+Bank of America	organization	130
+Daniel Van Dyke	person	130
+Van Dyke	person	130
+Van Dyke	person	130
+Van Dyke	person	130
+AMERICA	location	130
+U.S.	location	130
+U.S.	location	130
+United States	location	130
+U.S.	location	130
+U.S.	location	130
+Wharton Econometrics Inc	organization	131
+Commerce
+  Department	organization	131
+Morgan Stanley	organization	131
+Bank of New York	organization	131
+Lawrence Chimerine	person	131
+Stephen Roach	person	131
+Cynthia Latta	person	131
+James Christian	person	131
+Latta	person	131
+Chimerine	person	131
+Eugene Sherman	person	131
+U.S.	location	131
+U.S.	location	131
+West Coast	location	131
+U.S.	location	131
+Wharton	location	131
+U.S.	location	132
+U.S.	location	132
+Commerce Department	organization	133
+Commerce
+  Department	organization	133
+U.S.	location	133
+U.S.	location	133
+U.S.	location	134
+U.S.	location	134
+Commerce
+  Department	organization	135
+U.S.	location	135
+United States	location	135
+Construction Ministry	organization	136
+JAPAN	location	136
+Japan	location	136
+SENATE	organization	137
+HOUSING	organization	137
+Senate	organization	137
+Total	organization	137
+Housing Authority	organization	137
+House	organization	137
+None	person	137
+U.S.	location	137
+REALTY GROUP	organization	138
+National Association of Realtors	organization	138
+NAR	organization	138
+NAR	organization	138
+laws	person	138
+John Tuccillo	person	138
+CANADA	location	139
+Canada	location	139
+Commerce Department	organization	140
+U.S.	location	140
+U.S.	location	140
+Commerce Department	organization	141
+U.S.	location	141
+Commerce Department	organization	142
+U.S.	location	142
+U.S.	location	142
+Mortgage	organization	143
+Housing Corp	organization	143
+QUEBEC	location	143
+Quebec	location	143
+Quebec	location	143
+Canada	location	143
+Canada	location	143
+U.S.	location	144
+U.S.	location	144
+Commerce Department	organization	145
+U.S.	location	145
+U.S.	location	145
+Malcolm Baldrige	person	146
+U.S.	location	146
+Malcolm Baldrige	person	147
+U.S.	location	147
+U.S. HOUSING DATA	organization	148
+Discount Corp.	organization	148
+Merrill Lynch Capital Markets	organization	148
+Discount Corp.	organization	148
+Federal Reserve	organization	148
+Allan Leslie	person	148
+Mark Obrinsky	person	148
+Obrinsky	person	148
+Ward	person	148
+Allan Leslie	person	148
+Paul Volcker	person	148
+Joe Plocek	person	148
+U.S.	location	148
+U.S.	location	148
+U.S.	location	148
+Washington	location	148
+U.S.	location	148
+U.S.	location	148
+U.S.	location	148
+National Association of Realtors	organization	149
+U.S.	location	149

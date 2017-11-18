@@ -1,0 +1,24 @@
+<Location gate:gateId="809" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="776;777;782;787;789">UGANDA</Location> PLANS TO EXPORT ROASTED COFFEE TO EUROPE
+  <Location gate:gateId="810" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="776;777;782;787;789">Uganda</Location> plans to export roasted coffee to
+  <Location gate:gateId="811" locType="region" rule="Location1" ruleFinal="LocFinal">Europe</Location> by the end of 1988, a prominent local businessman said.
+      A.<Person gate:gateId="812" rule="PersonFullInitials" ruleFinal="PersonFinal" gate:matches="780;802" initials="R." surname="Sendi" kind="fullName">R. Sendi</Person> said on Sunday that <Location gate:gateId="813" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="776;777;782;787;789">Uganda</Location>&apos;s Ministry of
+  Industry supports his plan to build a factory to roast, grind
+  and pack local coffee for export. Construction will start in
+  December and the factory should be ready by next October.
+      He said the <Organization gate:gateId="803" orgType="unknown" rule="TheOrgXBase" ruleFinal="OrgFinal">Marketing Ministry</Organization> has authorised the Coffee
+  Marketing Board to supply his company &amp;lt;Unipack&gt; with 24,000
+  tonnes of beans a year for processing and export. <Person gate:gateId="804" rule="Unknown" matchedWithLonger="true" gate:matches="780;802" NMRule="Unknown" kind="PN">Sendi</Person> also
+  told reporters he had negotiated a 69.7 mln French franc loan
+  from the Banque Industrielle d&apos;Afrique Oriental in <Location gate:gateId="805" rule="InLoc1" ruleFinal="LocFinal" locType="city" kind="locName">Paris</Location>.
+      <Location gate:gateId="806" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="776;777;782;787;789">Uganda</Location> is the world&apos;s fifth largest coffee producer, and
+  expects to produce about 200,000 tonnes this year.
+      Market sources say roasted coffee exports will benefit
+  <Location gate:gateId="807" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="776;777;782;787;789">Uganda</Location>&apos;s economy as they will not be included in the 2.38 mln
+  (60 kg) bag export quota assigned to the country under the
+  latest International Coffee Agreement.
+      In addition, the value of roasted coffee should be
+  substantially higher than that of unroasted beans, they said.
+      The <Location gate:gateId="808" locType="country" rule="Location1" ruleFinal="LocFinal">U.S.</Location> Is the biggest buyer of Ugandan coffee, most of
+  which is used to produce instant coffee.
+  
+

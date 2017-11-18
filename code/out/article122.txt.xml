@@ -1,0 +1,21 @@
+<Person gate:gateId="629" rule="Unknown" gate:matches="623;624;625;626" NMRule="Unknown" kind="PN">DAUSTER</Person> SAYS CONSUMERS SHOULD KEEP OUT OF QUOTAS
+  Consumer countries should not
+  intervene in the distribution of coffee export quotas,
+  <Organization gate:gateId="631" orgType="unknown" rule="OrgXBase" ruleFinal="OrgFinal">Brazilian Coffee Institute</Organization> president <Person gate:gateId="637" rule="PersonSays" gate:matches="623;624;625;626">Jorio Dauster</Person> said.
+      &quot;Distribution of export quotas should be in the hands of
+  producers as has been traditional,&quot; <Person gate:gateId="630" rule="Unknown" gate:matches="623;624;625;626" NMRule="Unknown" kind="PN">Dauster</Person>, a delegate at the
+  recent coffee symposium here, told journalists. &quot;When consumers
+  want to get involved, talks are much more difficult.&quot;
+      The main consumer country the <Location gate:gateId="632" locType="country" rule="Location1" ruleFinal="LocFinal">United States</Location> and main
+  producer <Location gate:gateId="633" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="603;606">Brazil</Location> failed to reach agreement on quota distribution
+  when the International Coffee Organisation (<Person gate:gateId="634" rule="GazPersonFirst" firstName="ICO" ruleFinal="PersonFinal" gender="male" gate:matches="604;607" kind="firstName">ICO</Person>) met in
+  February.
+      <Person gate:gateId="627" matchedWithLonger="true" rule="PersonSays" gate:matches="623;624;625;626">Dauster</Person> said <Location gate:gateId="635" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="603;606">Brazil</Location>&apos;s role when the <Person gate:gateId="636" rule="GazPersonFirst" firstName="ICO" ruleFinal="PersonFinal" gender="male" gate:matches="604;607" kind="firstName">ICO</Person> meets in <Location gate:gateId="628" rule="InLoc1" ruleFinal="LocFinal" locType="city" kind="locName">London</Location> in
+  September will be to support the world coffee pact, defend its
+  market share and argue for distribution of quotas to be in the
+  hands of producer countries.
+      &quot;We have sacrificed a great deal already,&quot; he said. &quot;this year
+  we have a crop of 35 mln bags, we have economic problems and we
+  are not in a position to do favours.&quot;
+  
+

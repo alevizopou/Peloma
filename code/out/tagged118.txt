@@ -1,0 +1,16 @@
+rio	NP	Rio
+janeiro	NP	Janeiro
+ibc	NN	ibc
+estimates	VVZ	estimate
+coffee	NN	coffee
+crop	NN	crop
+mln	NN	mln
+bags	NNS	bag
+rio	NN	Rio
+janeiro	NN	janeiro
+ibc	NN	ibc
+estimates	VVZ	estimate
+coffee	NN	coffee
+crop	NN	crop
+mln	NN	mln
+bags	NNS	bag

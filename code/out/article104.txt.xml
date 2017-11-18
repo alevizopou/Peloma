@@ -1,0 +1,10 @@
+BRAZILIAN COFFEE RAINFALL
+  THE FOLLOWING RAINFALL WAS RECORDED IN
+  THE AREAS OVER THE PAST 24 HOURS
+      PARANA STATE: UMUARAMA NIL, PARANAVAI NIL, LONDRINA NIL,
+  MARINGA NIL.
+      <Location gate:gateId="310" locType="city" rule="Location1" ruleFinal="LocFinal">SAO PAULO</Location> STATE PRESIDENTE PRUDENTE NIL, VOTUPORANGA NIL,
+  <Person gate:gateId="311" rule="GazPersonFirst" firstName="FRANCA" ruleFinal="PersonFinal" gender="female" kind="firstName">FRANCA</Person> NIL, CATANDUVA NIL, <Location gate:gateId="312" rule="Location1" ruleFinal="LocFinal" locType="city" gate:matches="268;270">SAO</Location> <Person gate:gateId="313" rule="GazPersonFirst" firstName="CARLOS" ruleFinal="PersonFinal" gender="male" kind="firstName">CARLOS</Person> NIL, <Location gate:gateId="314" rule="Location1" ruleFinal="LocFinal" locType="city" gate:matches="268;270">SAO</Location> <Person gate:gateId="315" rule="GazPersonFirst" firstName="SIMAO" ruleFinal="PersonFinal" gender="male" kind="firstName">SIMAO</Person> NIL.
+      MINAS GERAIS STATE: GUAXUPE NIL, TRES PONTAS NIL. REUTER
+  
+

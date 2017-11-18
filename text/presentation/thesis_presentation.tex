@@ -1,0 +1,909 @@
+\documentclass[greek,9pt]{beamer}
+\usepackage{babel}
+\usepackage[iso-8859-7]{inputenc}
+
+
+%%% FONT SELECTION %%%%%%%%%%%%%%%%%%%%%%
+%%% we choose a sans font %%%%%%%%%%%%%%%
+%\usepackage{kmath,kerkis} %%%%%%%%%%%%%%
+\usepackage[default]{gfsneohellenic} %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{color}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+
+\makeatletter
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+  % this default might be overridden by plain title style
+  \newcommand\makebeamertitle{\frame{\maketitle}}%
+  \AtBeginDocument{
+    \let\origtableofcontents=\tableofcontents
+    \def\tableofcontents{\@ifnextchar[{\origtableofcontents}{\gobbletableofcontents}}
+    \def\gobbletableofcontents#1{\origtableofcontents}
+  }
+  \makeatletter
+  \long\def\myframe#1{\@myframe#1\@myframestop}%
+  \def\@myframe{\@ifnextchar<{\@@myframe}{\@@myframe<*>}}%
+  \def\@@myframe<#1>{\@ifnextchar[{\@@@myframe<#1>}{\@@@myframe<#1>[]}}
+  \def\@@@myframe<#1>[{\@ifnextchar<{\@@@@@myframe<#1>[}{\@@@@myframe<#1>[<*>][}}
+  \def\@@@@@myframe<#1>[#2]{\@ifnextchar[{\@@@@myframe<#1>[#2]}{\@@@@myframe<#1>[#2][]}}
+  \long\def\@@@@myframe<#1>[#2][#3]#4\@myframestop#5\myframeend{%
+    \frame<#1>[#2][#3]{\frametitle{#4}#5}}
+  \makeatother
+  \newenvironment{topcolumns}{\begin{columns}[t]}{\end{columns}}
+  \def\myframeend{} % In case there is a superfluous frame end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usetheme{Warsaw} %<-- well known blue theme
+%\usetheme{default}\usecolortheme{beaver}%\useoutertheme{default}
+%\usetheme{PaloAlto}
+%\usetheme{Warsaw}
+%\usetheme{Berlin}
+%\usecolortheme{seahorse}
+%\usecolortheme{rose}
+%\usetheme{Berkeley}
+%\usetheme{boxes}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{CambridgeUS} %<-- simpler themes I like
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen} %<-- simpler themes I like
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg} %<-- simpler themes I like
+%\usetheme{Montpellier}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore} %<-- simpler themes I like
+%\usetheme{Szeged}
+%\usetheme{Boadilla}
+%\usetheme{AnnArbor}
+
+% ENGLISH: \textlatin{MPLA MPLA MPLA}
+% \textlatin{\textbackslash{}pause}
+% \textcolor{red}{πρώτο κύριο μήνυμα}
+
+%%% remove beamer's navigation bar!! %%%%%%
+% \setbeamertemplate{navigation symbols}{} %% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% Comment to completely cover next transparencies %%
+\setbeamercovered{transparent} %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeatother
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\title[Παρουσίαση Διπλωματικής Εργασίας]{Σύστημα Επεξεργασίας, Ανάλυσης και Ομαδοποίησης Εγγράφων Ειδήσεων του Διαδικτύου}
+
+% \subtitle{Μόνο αν η παρουσίαση έχει υπότιτλο}
+
+\author[Α.\ Αλεβιζοπούλου]{Αφροδίτη Αλεβιζοπούλου}
+
+\institute{Τμήμα Μηχανικών Ηλεκτρονικών Υπολογιστών \& Πληροφορικής\\
+Πανεπιστήμιο Πατρών\\[4ex]
+% \medskip
+\textit{\textlatin{alevizopou@ceid.upatras.gr}} % Your email address
+}
+\date{\today} % Date, can be changed to a custom date
+% \date{Νοέμβριος, \textsc{2017}}
+
+\makebeamertitle
+
+%\pgfdeclareimage[height=0.5cm]{institution-logo}{institution-logo-filename}
+
+%\logo{\pgfuseimage{institution-logo}}
+
+\AtBeginSubsection[]{
+  \frame<beamer>{ 
+    \frametitle{Περιεχόμενα}   
+    \tableofcontents[currentsection,currentsubsection]     
+  }
+}
+
+%\beamerdefaultoverlayspecification{<+->}
+
+\myframeend{}\myframe{Περιεχόμενα}
+
+\tableofcontents{}
+
+%============================================= 1ο kefalaio ======================================================
+\myframeend{}
+\section{Εισαγωγή}
+
+%----------------- A --------------------
+\myframeend{}
+\subsection[Συστήματα Συστάσεων]{Συστήματα Συστάσεων}
+
+%------------------------------
+\myframeend{}
+\myframe{Συστήματα Συστάσεων}
+\framesubtitle{Ανάγκη εξατομίκευσης}
+
+\begin{itemize}
+\item Ραγδαία εξέλιξη Παγκόσμιου Ιστού/Μεγάλος όγκος πληροφοριών που κατακλύζει το διαδίκτυο 
+(προσβάσιμο σε εκατομμύρια χρήστες, μειωμένο κόστος διανομής και πρόσβασης στις ειδήσεις, 
+παγκόσμια αποστολή και κατανάλωση πληροφορίας, μικρός χρόνος για τη δημοσίευση ειδήσεων).
+\pause
+\item Δυσκολία να ξεχωρίσουμε πληροφορίες σχετικές με τα ενδιαφέροντά μας.
+\pause
+\item Ανάγκη για φιλτράρισμα (διαφορετικά ενδιαφέροντα χρηστών) και εξατομικευμένες προτάσεις.
+\pause{}
+  \begin{itemize}
+    \item Συστήματα Συστάσεων: Λαμβάνοντας ως είσοδο τις προτιμήσεις των χρηστών, υπολογίζουν 
+    το εκτιμώμενο ενδιαφέρον ως προς ένα αντικείμενο.
+  \end{itemize}
+\end{itemize}
+
+%------------------------------
+\myframeend{}
+\myframe{Συστήματα Συστάσεων}
+\framesubtitle{Στόχος Διπλωματικής Εργασίας}
+
+\begin{itemize}
+\item Σχεδιασμός και υλοποίηση συστήματος επεξεργασίας, ανάλυσης και ομαδοποίησης 
+εγγράφων ειδήσεων του διαδικτύου με στόχο τις εξατομικευμένες συστάσεις άρθρων ειδήσεων σε χρήστες.
+\begin{itemize}
+\item Επεξεργασία, ανάλυση και ομαδοποίηση άρθρων ειδήσεων του διαδικτύου και αποθήκευση πληροφορίας στη βάση δεδομένων.
+\pause
+\item Περιήγηση χρήστη μεταξύ των άρθρων του συστήματος.
+\pause
+\item Δημιουργία προφίλ/ιστορικού χρήστη.
+\pause
+\item Δημιουργία συστάσεων ειδησεογραφικών άρθρων που εκτιμάται ότι σχετίζονται με τα ενδιαφέροντά του.
+\pause
+\item Αξιολόγηση προτάσεων συστήματος από το χρήστη.
+\end{itemize}
+\end{itemize}
+  
+%----------------- B --------------------
+\myframeend{}
+\subsection{Επεξεργασία Φυσικής Γλώσσας}
+
+%------------------------------
+\myframeend{}
+\myframe{Επεξεργασία Φυσικής Γλώσσας}
+\framesubtitle{}
+
+\begin{itemize}
+\item Διεπιστημονικός κλάδος της επιστήμης της Πληροφορικής, της Τεχνητής Νοημοσύνης και της Υπολογιστικής Γλωσσολογίας.
+\item Αλληλεπίδραση μεταξύ των υπολογιστών και της ανθρώπινης (φυσικής) γλώσσας.
+\item Προσπάθεια να καταστούν ικανοί οι υπολογιστές να κατανοήσουν/εξάγουν νοήματα από γλωσσικά δεδομένα.
+\end{itemize}
+
+%------------------------------
+\myframeend{}
+\myframe{Επεξεργασία Φυσικής Γλώσσας}
+\framesubtitle{Πεδία Έρευνας Επεξεργασίας Φυσικής Γλώσσας}
+
+\begin{itemize}
+\item Ανάλυση λόγου
+\item Αυτόματη αναγνώριση ομιλίας
+\item Αυτόματη περίληψη
+\item Εξόρυξη πληροφοριών
+\item Μηχανική μετάφραση
+\item Οπτική αναγνώριση χαρακτήρων
+\item Σύνθεση ομιλίας
+\item Συντακτική ανάλυση
+\end{itemize}
+
+%------------------------------
+\myframeend{}
+\myframe{Επεξεργασία Φυσικής Γλώσσας}
+\framesubtitle{Ανάλυση Φυσικής Γλώσσας με χρήση Θεματικών Μοντέλων}
+
+\begin{itemize}
+ \item \textbf{Θεματικό Μοντέλο \textlatin{(topic model)}:} Ένας τύπος στατιστικού μοντέλου για την ανακάλυψη
+θεμάτων που υπάρχουν σε μία συλλογή κειμένων.
+\item Βασική ιδέα: Tα κείμενα αντιπροσωπεύονται από τυχαίες προσμείξεις κρυφών θεμάτων, 
+όπου κάθε θέμα χαρακτηρίζεται από μία κατανομή ως προς τις λέξεις.
+\end{itemize}
+
+
+%------------------------------
+\myframeend{}
+\myframe{Επεξεργασία Φυσικής Γλώσσας}
+\framesubtitle{Ανάλυση Φυσικής Γλώσσας με χρήση Θεματικών Μοντέλων}
+
+ \begin{figure}[!ht] \centering
+\centerline{
+    \includegraphics[width=0.95\textwidth]{figures/LDATopicModels.png}}
+    \label{}
+\end{figure}
+
+%------------------------------
+\myframeend{}
+\myframe{Επεξεργασία Φυσικής Γλώσσας}
+\framesubtitle{Ανάλυση Φυσικής Γλώσσας με χρήση Θεματικών Μοντέλων}
+
+\textbf{Στόχος:} \\
+\vspace{0.2cm}
+Να βρούμε σύντομες περιγραφές των μελών της συλλογής που επιτρέπουν μία αποτελεσματική επεξεργασία μεγάλων συλλογών,
+διατηρώντας τις απαραίτητες στατιστικές σχέσεις που είναι χρήσιμες για βασικές διεργασίες, όπως η περίληψη κειμένου.
+
+%------------------------------
+\myframeend{}
+\myframe{Επεξεργασία Φυσικής Γλώσσας}
+\framesubtitle{Ανάλυση Φυσικής Γλώσσας με χρήση Θεματικών Μοντέλων}
+
+\begin{itemize}
+\item Στο σύστημά μας εφαρμόζουμε το \textbf{\textlatin{Latent Dirichlet Allocation (LDA)}} ως το
+μοντέλο για την ανακάλυψη κρυμμένων θεμάτων.
+\item Αναπαράσταση της κατανομής θεμάτων ως ένα διάνυσμα κάθε εγγραφή του οποίου δηλώνει το βάρος της αντίστοιχης
+λέξης. \\ 
+\item Εφαρμογή μέσω της βιβλιοθήκης \textlatin{gensim} της \textlatin{Python}.
+\end{itemize}
+
+
+%============================================= 2ο kefalaio ======================================================
+\myframeend{}
+\section{Ανάλυση και Σχεδίαση Συστήματος}
+
+\myframeend{}
+\subsection{Αρχιτεκτονική Συστήματος}
+
+%------------------------------
+\myframeend{}
+\myframe{}
+
+\begin{figure}[!ht] \centering
+\centerline{
+    \includegraphics[width=0.45\textwidth]{figures/arch.png}}
+    \label{}
+\end{figure}
+
+%-----------------------------------------
+\myframeend{}
+\subsection{Υποσυστήματα}
+
+%------------------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+
+\begin{enumerate}
+\item \textbf{Υποσύστημα Δημιουργίας Βάσης Δεδομένων και Καταχώρησης Πληροφορίας}
+
+\item \textbf{Υποσύστημα Ομαδοποίησης Ειδησεογραφικών Άρθρων}
+
+\item \textbf{Υποσύστημα Δημιουργίας Προφίλ Χρήστη}
+
+\item \textbf{Υποσύστημα Προσωποποιημένων Συστάσεων}
+\end{enumerate}
+
+%--------------1--------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{1. Υποσύστημα Δημιουργίας ΒΔ και Καταχώρησης Πληροφορίας}
+
+\begin{itemize}
+\item \textbf{Συλλογή Ειδησεογραφικών Άρθρων:} \\
+\vspace{0.1cm}
+\textlatin{The Guardian, New York Times, Washington Post, Fox News, Independent, Reuters} 
+και συλλογή άρθρων \textlatin{Reuters} του \textlatin{NLTK}.
+
+\item \textbf{Δημιουργία ΒΔ και Καταχώρηση Πληροφορίας:} \\
+\begin{itemize}
+\item Πληροφορίες που αποθηκεύονται για κάθε άρθρο: τίτλος, συγγραφέας,
+ημερομηνία δημοσίευσης, κείμενο άρθρου, γενική κατηγορία στην οποία
+ανήκει.
+\item Δημιουργία χρηστών και αναγνωστικού ιστορικού (αποθηκευμένων) χρηστών.
+\end{itemize}
+\end{itemize}
+
+%--------------2---------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{2. Υποσύστημα Ομαδοποίησης Ειδησεογραφικών Άρθρων}
+
+\begin{itemize}
+\item Ομαδοποίηση Ειδησεογραφικών Άρθρων σε Κατηγορίες \textlatin{(Clusters)}
+\item Προεπεξεργασία Κειμένου \textlatin{(Text Preprocessing)}
+\item Ομαδοποίηση Ειδησεογραφικών Άρθρων εντός των \textlatin{Clusters} σε Ομάδες \textlatin{(Groups)}
+\item Εντοπισμός Ειδησεογραφικών Θεμάτων μέσω Πιθανοτικών Θεματικών Μοντέλων
+\end{itemize}
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{2. Υποσύστημα Ομαδοποίησης Ειδησεογραφικών Άρθρων}
+
+\begin{itemize}
+\item \textbf{Ομαδοποίηση Ειδησεογραφικών Άρθρων σε Κατηγορίες \textlatin{(Clusters)}:} \\
+\begin{itemize}
+ \item Άρθρα από εφτά διαφορετικές κατηγορίες (\textlatin{Science/Technology, Politics, Sports, Life \& Style, Sugar, Coffee, Housing}).
+ \item Κάθε άρθρο ανήκει αποκλειστικά σε ένα και μοναδικό \textlatin{cluster}.
+ \item Ομαδοποίηση βάσει προεπιλεγμένης κατηγορίας.
+\end{itemize}
+\end{itemize}
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{2. Υποσύστημα Ομαδοποίησης Ειδησεογραφικών Άρθρων}
+
+\begin{itemize}
+\item \textbf{Προεπεξεργασία Κειμένου \textlatin{(Text Preprocessing)}:} \\
+\begin{itemize}
+ \item Λεξική Ανάλυση: Διαμερισμός άρθρων στα συστατικά στοιχεία του κειμένου τους \textlatin{(tokenization)}.
+ \item Αφαίρεση τετριμμένων λέξεων και τερματικών όρων:
+ Καθαρισμός από άρθρα, συνδέσμους, αντωνυμίες και συχνά χρησιμοποιούμενες λέξεις χωρίς ιδιαίτερη 
+ σημασιολογική πληροφορία. 
+ \item Κανονικοποίηση των λέξεων: Αναγνώριση ριζών λέξεων \textlatin{(lemmatization)} και 
+ αποκατάληξη \textlatin{(stemming)}.
+ \item Επιλογή των αντιπροσωπευτικών όρων: Εφαρμογή \textlatin{tf-idf} \\ 
+ (Η \textlatin{tf-idf} έχει μεγάλη τιμή για έναν όρο και επομένως, είναι σημαντικός για ένα
+κείμενο όταν ο όρος εμφανίζεται συχνά σε ένα κείμενο της συλλογής και σπάνια
+στα υπόλοιπα κείμενα).
+\end{itemize}
+\end{itemize}
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{2. Υποσύστημα Ομαδοποίησης Ειδησεογραφικών Άρθρων}
+
+\begin{itemize}
+\item \textbf{Ομαδοποίηση Ειδησεογραφικών Άρθρων εντός των \textlatin{Clusters} σε Ομάδες \textlatin{(Groups)}:} \\
+\begin{itemize}
+ \item Εφαρμογή αλγορίθμου ομαδοποίησης \textbf{\textlatin{k-means}} (βιβλιοθήκη \textlatin{scikit-learn} της \textlatin{Python}).
+ Διάσπαση δεδομένων σε \textlatin{k} διαφορετικές ομάδες μέσω μίας επαναληπτικής διαδικασίας.
+ \item Κριτήριο σύγκλισης αλγορίθμου, τρόπος μέτρησης απόστασης δεδομένων από τα κέντρα των ομάδων, τρόπος ανάδειξης αρχικών κέντρων: 
+ ορίζονται από το χρήστη.
+ \item 1ο επίπεδο σύστασης άρθρων του συστήματος: Τα ήδη υπάρχοντα \textlatin{clusters} μαζί με τα παραγόμενα \textlatin{groups} που περιέχονται σε αυτά.
+\end{itemize}
+\end{itemize}
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{2. Υποσύστημα Ομαδοποίησης Ειδησεογραφικών Άρθρων}
+
+\begin{itemize}
+\item \textbf{Εντοπισμός Ειδησεογραφικών Θεμάτων μέσω Πιθανοτικών Θεματικών Μοντέλων:} \\
+\begin{itemize}
+\item Ανακάλυψη κρυμμένων θεμάτων μίας συλλογής κειμένων.
+\item Λίστα αντιπροσωπευτικών λέξεων από την αρχική συλλογή κειμένων μαζί με το αντίστοιχο βάρος για κάθε λέξη 
+(μοντελοποίηση μίας συλλογής ως ένα πεπερασμένο μείγμα από ένα σύνολο θεματικών πιθανοτήτων).
+\item Εξερεύνηση των συσχετισμών μεταξύ των \textlatin{clusters} (ή των \textlatin{groups}) άρθρων και του προφίλ του δοθέντος χρήστη.
+%\item Εφαρμογή του \textbf{\textlatin{LDA}} σε κάθε \textlatin{cluster} (κατηγορία) άρθρων, σε κάθε \textlatin{group} εντός των \textlatin{clusters}, καθώς και σε κάθε μεμονωμένο άρθρο.
+\end{itemize}
+\end{itemize}
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{2. Υποσύστημα Ομαδοποίησης Ειδησεογραφικών Άρθρων}
+
+\begin{itemize}
+\item \textbf{Εντοπισμός Ειδησεογραφικών Θεμάτων μέσω Πιθανοτικών Θεματικών Μοντέλων:} \\
+\begin{itemize}
+ \item Εφαρμογή του \textbf{\textlatin{LDA}} σε κάθε \textlatin{cluster} (κατηγορία) άρθρων, σε κάθε \textlatin{group} εντός των \textlatin{clusters}, καθώς
+και σε κάθε μεμονωμένο άρθρο.
+\item Διάνυσμα κατανομής θεμάτων τόσο για τα άρθρα, όσο και για τα \textlatin{clusters} και τα \textlatin{groups} που έχουν δημιουργηθεί. 
+\item Κάθε καταχώρηση ενός τέτοιου διανύσματος θεμάτων αποτελείται από μία αντιπροσωπευτική λέξη και το αντίστοιχο βάρος. 
+Επιλογή αριθμού αντιπροσωπευτικών λέξεων απ'τις οποίες θα αποτελείται ένα τέτοιο διάνυσμα κατά την εφαρμογή του αλγορίθμου.
+\end{itemize}
+\end{itemize}
+
+
+%--------------3---------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{3. Υποσύστημα Δημιουργίας Προφίλ Χρήστη}
+
+Το \textbf{Προφίλ Χρήστη} παραμετροποιείται μέσω μίας τριπλέτας \textlatin{U = <T, P, E>}, όπου:
+\begin{itemize}
+\item \textbf{T}: κατανομή θεμάτων άρθρων του ιστορικού ανάγνωσης του χρήστη \textbf{(Σύνοψη Θεματικού Περιεχομένου Άρθρων)}.
+\item \textbf{\textlatin{P}}: Λίστα χρηστών οι οποίοι έχουν παρόμοιες αναγνωστικές προτιμήσεις \textbf{(Ανάλυση Προτύπων Πρόσβασης)}.
+\item \textbf{E}: Λίστα από ονοματισμένες οντότητες εξαγόμενες από το ιστορικό αναγνωσμένων άρθρων του χρήστη, 
+συσχετισμένες με τον αντίστοιχο τύπο οντότητας \textbf{(Εξαγωγή Ονοματισμένων Οντοτήτων)}.
+\end{itemize}
+
+%------------------------------
+\myframeend{}
+\myframe{}
+
+\begin{figure}[!ht] \centering
+\centerline{
+    \includegraphics[width=0.85\textwidth]{figures/filtering.png}}
+    \label{}
+\end{figure}
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{3. Υποσύστημα Δημιουργίας Προφίλ Χρήστη}
+
+\begin{itemize}
+\item \textbf{Σύνοψη Θεματικού Περιεχομένου Άρθρων:} \\
+\begin{itemize}
+\item Ίδια στρατηγική που εφαρμόσαμε και για τον εντοπισμό ειδησεογραφικών θεμάτων μέσω πιθανοτικών θεματικών μοντέλων στα \textlatin{clusters} άρθρων. 
+\item Ίδια αναπαράσταση άρθρων (Διάνυσμα κατανομής θεμάτων κάθε καταχώρηση του οποίου αποτελείται από μία αντιπροσωπευτική λέξη και το αντίστοιχο βάρος).
+\end{itemize}
+\end{itemize}
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{3. Υποσύστημα Δημιουργίας Προφίλ Χρήστη}
+
+\begin{itemize}
+\item \textbf{Ανάλυση Προτύπων Πρόσβασης:} \\
+\begin{itemize}
+\item Το προφίλ ενός χρήστη μπορεί να εμπλουτιστεί αναλύοντας τις αναγνωστικές προτιμήσεις άλλων χρηστών 
+παρόμοιων με το δεδομένο χρήστη και ενσωματώνοντάς τες σε αυτό.
+\item Ανάλυση του ιστορικού αναγνωσμένων άρθρων όλων των χρηστών του συστήματος.
+\item Υπολογισμός των ανά ζεύγος ομοιοτήτων \textlatin{Jaccard} του ιστορικού αναγνωσμένων άρθρων μεταξύ των χρηστών του συστήματος. 
+(Ομοιότητα \textlatin{Jaccard} για δύο σύνολα είναι το μέγεθος της τομής προς το μέγεθος της ένωσής τους).
+\item Εξαγωγή λίστας με τα ονόματα παρόμοιων χρηστών για κάθε χρήστη.
+\item Αποθήκευση λίστας στη ΒΔ και ενημέρωση καθ'όλη τη διάρκεια περιήγησης του χρήστη στο σύστημα.
+\end{itemize}
+\end{itemize}
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{3. Υποσύστημα Δημιουργίας Προφίλ Χρήστη}
+
+\begin{itemize}
+\item \textbf{Εξαγωγή Ονοματισμένων Οντοτήτων:} \\
+\begin{itemize}
+\item Προτίμηση αναγνωστών σε λέξεις/φράσεις όπως ``πότε, πού, τι συνέβη, ποιος εμπλέκεται''
+\item Χρήση εργαλείου επεξεργασίας Φυσικής Γλώσσας \textlatin{GATE (General Architecture for Text Engineering)}
+\item Εξαγωγή πληροφορίας για οντότητες τύπου \textlatin{``Organization'', ``Person''} και \textlatin{``Location''}.
+\item Εξαγωγή λίστας με ονοματισμένες οντότητες και τον αντίστοιχο τύπο τους για κάθε άρθρο.
+\end{itemize}
+\end{itemize}
+
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{3. Υποσύστημα Δημιουργίας Προφίλ Χρήστη}
+
+Εξαγωγή ονοματισμένων οντοτήτων με χρήση του \textlatin{GATE}:
+
+\begin{figure}[!ht] \centering
+\centerline{
+\includegraphics[width=0.85\textwidth]{figures/gate.png}}
+\label{}
+\end{figure}
+
+
+
+%--------------4---------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{4. Υποσύστημα Προσωποποιημένων Συστάσεων}
+
+\begin{itemize}
+\item Αντιστοίχιση Αναγνωστικών Προτιμήσεων για την Αναπαράσταση 1ου Επιπέδου.
+\item Αντιστοίχιση Αναγνωστικών Προτιμήσεων για την Αναπαράσταση 2ου Επιπέδου.
+  \begin{itemize}
+  \item Δημιουργία Προφίλ Ειδησεογραφικών Άρθρων.
+  \item Μοντέλο Συστάσεων.
+  \item Προσαρμογή Κατάταξης Ειδησεογραφικών Άρθρων.
+  \end{itemize}
+\end{itemize}
+
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{4. Υποσύστημα Προσωποποιημένων Συστάσεων}
+
+\begin{itemize}
+\item \textbf{Αντιστοίχιση Αναγνωστικών Προτιμήσεων για την Αναπαράσταση 1ου Επιπέδου:}
+\begin{itemize}
+ \item Δεδομένα: Ιεραρχία των ειδησεογραφικών άρθρων (συσταδοποίηση σε \textlatin{clusters} και \textlatin{groups} εντός αυτών), 
+ καθώς και το προφίλ του χρήστη.
+ \item Διαδοχική αντιστοίχιση του προφίλ του χρήστη στην ιεραρχία ειδήσεων
+ (Σύγκριση βαθμού ομοιότητας κατανομής θεμάτων κάθε ομάδας με αυτή του προφίλ χρήστη, μέσω της ομοιότητας συνημιτόνου).
+ \item Επιλογή των \textlatin{clusters} με σκορ ομοιότητας μεγαλύτερο από ένα δυναμικό κατώφλι 
+ (Κάθε \textlatin{cluster} αντιστοιχίζεται σε μία κατηγορία θεμάτων).
+ \item Ομοίως, εισχωρούμε σε κάθε επιλεγμένο \textlatin{cluster} και επιλέγουμε το \textlatin{group} νέων
+που είναι πιο κοντά σε ομοιότητα με τις προτιμήσεις του χρήστη.
+\end{itemize}
+
+\end{itemize}
+
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{4. Υποσύστημα Προσωποποιημένων Συστάσεων}
+
+\begin{itemize}
+\item \textbf{Αντιστοίχιση Αναγνωστικών Προτιμήσεων για την Αναπαράσταση 2ου Επιπέδου:}
+\begin{itemize}
+ \item Δεδομένα: \textlatin{Clusters} και \textlatin{groups} που πιθανότατα ενδιαφέρουν το χρήστη.
+ \item Στόχος: Επιλογή συγκεκριμένων άρθρων προς αναπαράσταση.
+ \item Δημιουργία προφίλ ειδησεογραφικών άρθρων.
+\end{itemize}
+
+\end{itemize}
+
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{4. Υποσύστημα Προσωποποιημένων Συστάσεων}
+
+\textbf{Δημιουργία Προφίλ Ειδησεογραφικών Άρθρων:}\\
+Το Προφίλ Άρθρου παραμετροποιείται μέσω μίας τριπλέτας \textlatin{F = <T, P, E>}, όπου:
+\begin{itemize}
+\item \textbf{T}: κατανομή θεμάτων άρθρου (Σύνοψη Θεματικού Περιεχομένου Άρθρου).
+\item \textbf{\textlatin{P}}: Λίστα χρηστών οι οποίοι έχουν αναγνώσει το άρθρο (Ανάλυση Προτύπων Πρόσβασης).
+\item \textbf{E}: Λίστα από ονοματισμένες οντότητες εξαγόμενες από το άρθρο (Εξαγωγή Ονοματισμένων Οντοτήτων).
+\end{itemize}
+
+\textbf{Στατικά χαρακτηριστικά άρθρου:} Kατανομή θεμάτων, λίστα χρηστών, ονοματισμένες οντότητες. \\
+\textbf{Δυναμικά χαρακτηριστικά άρθρου:} Χρήστες που το διάβασαν, δημοφιλία, πόσο ``φρέσκο'' είναι από τη σκοπιά του πόσο πρόσφατα δημοσιεύθηκε.
+
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{4. Υποσύστημα Προσωποποιημένων Συστάσεων}
+
+\textbf{Μοντέλο Συστάσεων:}
+\begin{itemize}
+\item Δεδομένα: Λίστες άρθρων, μία για κάθε \textlatin{group} άρθρων που επιλέχθηκε βάσει ομοιότητας.
+\item Αφαιρούμε από κάθε επιλεγμένο \textlatin{group} άρθρων τα άρθρα τα οποία βρίσκονται ήδη στο ιστορικό ανάγνωσης του χρήστη.
+\item Καταλήγουμε με μία λίστα από λίστες, κάθε μία εκ των οποίων περιλαμβάνει τα εναπομείναντα
+υποψήφια προς πρόταση άρθρα από κάθε \textlatin{group}.
+\item Υπολογίζουμε το \textlatin{budget} Β για κάθε λίστα, δηλαδή το μέγιστο αριθμό από προτεινόμενα άρθρα μέσα σε κάθε \textlatin{group}. 
+\end{itemize}
+
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{4. Υποσύστημα Προσωποποιημένων Συστάσεων}
+
+\textbf{Υπολογισμός \textlatin{budget} Β} βάσει ομοιότητας χρήστη με την εν λόγω κατηγορία:
+\begin{itemize}
+\item Όσο μεγαλύτερη είναι η τιμή που προκύπτει από τη σύγκριση μεταξύ των κατανομών θεμάτων 
+χρήστη και του εκάστοτε \textlatin{cluster}, τόσο
+μεγαλύτερος είναι ο αριθμός άρθρων που επιλέγονται να προταθούν από την εν λόγω κατηγορία άρθρων.
+\end{itemize}
+
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{4. Υποσύστημα Προσωποποιημένων Συστάσεων}
+
+\textbf{Μοντέλο Συστάσεων:}
+
+\begin{itemize}
+ \item Υπολογισμός για κάθε \textlatin{group} όλων των δυνατών συνδυασμών άρθρων, μεγέθους ίσου με το αντίστοιχο \textlatin{budget}.
+ \item Για παράδειγμα, αν το \textlatin{budget} για ένα \textlatin{group} είναι ίσο με την τιμή ν, τότε υπολογίζουμε όλες τις πιθανές ν-άδες άρθρων.
+\item Υλοποίηση συνάρτησης αξιολόγησης κάθε ν-άδας με στόχο την επιλογή 
+της ν-άδας που προσφέρει τη μέγιστη αύξηση ωφέλειας για το χρήστη 
+(αποδείχθηκε υπερβολικά χρονοβόρα διαδικασία για τα δεδομένα ενός συστήματος συστάσεων - Αναφορά σε φιλοσοφία \textlatin{submodular} συναρτήσεων).
+\item Εφαρμογή \textlatin{random} συνάρτησης για επιλογή ν-άδας άρθρων από κάθε \textlatin{group}. 
+
+\end{itemize}
+
+
+% ------------------
+\myframeend{}
+\myframe{Υποσυστήματα μηχανισμού}
+\framesubtitle{4. Υποσύστημα Προσωποποιημένων Συστάσεων}
+
+\textbf{Προσαρμογή Κατάταξης Ειδησεογραφικών Άρθρων:}
+\begin{itemize}
+ \item Δεδομένα: Λίστα με ειδησεογραφικά άρθρα από κάθε επιλεγμένη θεματική κατηγορία.
+ \item Δημοφιλία άρθρων και πόσο πρόσφατα δημοσιευμένα είναι.
+ \item Επιλέγουμε διαδοχικά δύο γειτονικά άρθρα από την κορυφή της λίστας προς τα κάτω 
+ και τα συγκρίνουμε ως προς το δυναμικό σκορ (συνδυασμός των παραπάνω δύο χαρακτηριστικών).
+ \item Όσο πιο πρόσφατα δημοσιεύθηκε ένα άρθρο, τόσο υψηλότερη θέση παίρνει στην τελική κατάταξη.
+ \item Η παραγόμενη κατάταξη δίνει έμφαση στα πιο δημοφιλή και ``φρέσκα'' ειδησεογραφικά άρθρα.
+\end{itemize}
+
+  
+
+%============================================= 3ο kefalaio ======================================================
+\myframeend{}\section{Τεχνολογίες Υλοποίησης}
+\myframeend{}\subsection*{\textlatin{PELOMA: A Personalized News Recommendation System}}
+
+%------------------------------
+\myframeend{}
+\myframe{Εργαλεία \& Τεχνολογίες Υλοποίησης}
+
+\begin{itemize}
+\item Γλώσσα προγραμματισμού \textlatin{Python}, έκδοση 3.4.0
+\item \textlatin{MySQL}: Σύστημα διαχείρισης σχεσιακών ΒΔ
+\item \textlatin{Web Technologies: Flask Web Framework, HTML, CSS, Apache HTTP Server}
+\item Εργαλεία Επεξεργασίας Φυσικής Γλώσσας:
+
+  \begin{itemize}
+  \item \textlatin{NLTK}: % Πακέτο βιβλιοθηκών και προγραμμάτων της \textlatin{Python} για εφαρμογές της ΕΦΓ 
+  \textlatin{Sentence Tokenization, Word Tokenization, Removing Stopwords}
+  \item \textlatin{GATE for Named Entity Recognition}: Αναγνώριση διαφορετικών τύπων οντοτήτων, όπως ονόματα, τοποθεσίες
+και οργανισμοί, απαντώντας σε ερωτήσεις όπως ``Τι συνέβη, ποιος εμπλέκεται,
+πότε συνέβη''
+  \end{itemize}
+\end{itemize}
+
+% \vskip0pt plus.5fill
+
+
+%============================================= 4ο kefalaio ======================================================
+\myframeend{}
+\section{Παρουσίαση Συστήματος}
+\myframeend{}
+\subsection{\textlatin{PELOMA: A Personalized News Recommendation System}}
+
+%------------------------------
+\myframeend{}
+\myframe{Σύστημα Συστάσεων}
+\framesubtitle{Είσοδος χρήστη στο σύστημα}
+
+\begin{figure}[!ht] \centering
+\centerline{
+\includegraphics[width=0.85\textwidth]{figures/peloma/login.png}}
+\label{}
+\end{figure}
+
+%------------------------------
+\myframeend{}
+\myframe{Σύστημα Συστάσεων}
+\framesubtitle{Είσοδος χρήστη στο σύστημα}
+
+\begin{figure}[!ht] \centering
+\centerline{
+\includegraphics[width=0.85\textwidth]{figures/peloma/login2.png}}
+\label{}
+\end{figure}
+
+%------------------------------
+\myframeend{}
+\myframe{Σύστημα Συστάσεων}
+\framesubtitle{Προσπάθεια λήψης συστάσεων πριν την ανάγνωση άρθρων}
+
+\begin{figure}[!ht] \centering
+\centerline{
+\includegraphics[width=0.85\textwidth]{figures/peloma/not.png}}
+\label{}
+\end{figure}
+
+%------------------------------
+\myframeend{}
+\myframe{Σύστημα Συστάσεων}
+\framesubtitle{Προβολή λίστας άρθρων Βάσης Δεδομένων}
+
+\begin{figure}[!ht] \centering
+\centerline{
+\includegraphics[width=0.8\textwidth]{figures/peloma/mini_articles.png}}
+\label{}
+\end{figure}
+
+%------------------------------
+\myframeend{}
+\myframe{Σύστημα Συστάσεων}
+\framesubtitle{Προβολή πλήρους κειμένου ενός άρθρου}
+
+\begin{figure}[!ht] \centering
+\centerline{
+\includegraphics[width=0.8\textwidth]{figures/peloma/article.png}}
+\label{}
+\end{figure}
+
+%------------------------------
+\myframeend{}
+\myframe{Σύστημα Συστάσεων}
+\framesubtitle{Προσωποποιημένες Συστάσεις Άρθρων}
+
+\begin{figure}[!ht] \centering
+\centerline{
+\includegraphics[width=0.75\textwidth]{figures/peloma/recommend.png}}
+\label{}
+\end{figure}
+
+%------------------------------
+\myframeend{}
+\myframe{Σύστημα Συστάσεων}
+\framesubtitle{Αξιολόγηση Συστήματος από τη χρήστη}
+
+\begin{figure}[!ht] \centering
+\centerline{
+\includegraphics[width=0.85\textwidth]{figures/peloma/feedback2.png}}
+\label{}
+\end{figure}
+
+
+%============================================= 5ο kefalaio ======================================================
+\myframeend{}\section{Αξιολόγηση Συστήματος}
+\myframeend{}\subsection*{\textlatin{PELOMA: A Personalized News Recommendation System}}
+
+%------------------------------
+\myframeend{}
+\myframe{Αξιολόγηση Συστήματος Συστάσεων}
+\framesubtitle{Κριτήρια υπολογισμού ικανοποίησης χρήστη}
+
+Αξιολόγηση του συστήματος από 50 χρήστες ως προς τα παρακάτω κριτήρια:
+  \begin{itemize}[<+->]
+  \item Συσχετισμός των προτεινόμενων άρθρων με τα πραγματικά τους ενδιαφέροντα \textlatin{(Preference)}
+
+  \item Ποικιλία της λίστας συστάσεων \textlatin{(Diversity)}
+
+  \item Kατάταξη των άρθρων της λίστας συστάσεων \textlatin{(Ordering)}
+  \end{itemize}
+
+%------------------------------
+\myframeend{}
+\myframe{Αποτελέσματα πειραματικής αξιολόγησης}
+
+\begin{figure}[!ht] \centering
+\centerline{
+    \includegraphics[width=0.7\textwidth]{figures/plot1.png}}
+    %\caption{Αξιολόγηση των προτάσεων του συστήματος.}
+    \label{}
+\end{figure}
+
+%------------------------------
+\myframeend{}
+\myframe{Αποτελέσματα πειραματικής αξιολόγησης}
+\framesubtitle{Ιστορικό ανάγνωσης και 1η φάση συστάσεων}
+
+Διαμόρφωση συστάσεων προς έναν χρήστη κατά το χρόνο παραμονής του στο σύστημα, όπου δέχεται συστάσεις και συνεχίζει
+την ανάγνωση άρθρων:
+
+\begin{figure}[!ht] \centering
+\centerline{
+    \includegraphics[width=0.8\textwidth]{figures/table1.png}}
+    % \caption{Ιστορικό ανάγνωσης και 1η φάση συστάσεων.}
+    \label{}
+\end{figure}
+
+%------------------------------
+\myframeend{}
+\myframe{Αποτελέσματα πειραματικής αξιολόγησης}
+\framesubtitle{Ιστορικό ανάγνωσης και 2η φάση συστάσεων}
+
+\begin{figure}[!ht] \centering
+\centerline{
+    \includegraphics[width=0.8\textwidth]{figures/table2.png}}
+     % \caption{Ιστορικό ανάγνωσης και 2η φάση συστάσεων.}
+    \label{}
+\end{figure}
+
+%------------------------------
+\myframeend{}
+\myframe{Αποτελέσματα πειραματικής αξιολόγησης}
+\framesubtitle{Ιστορικό ανάγνωσης και 3η φάση συστάσεων}
+
+\begin{figure}[!ht] \centering
+\centerline{
+    \includegraphics[width=0.8\textwidth]{figures/table3.png}}
+    % \caption{Ιστορικό ανάγνωσης και 3η φάση συστάσεων.}
+    \label{}
+\end{figure}
+
+
+%------------------------------
+\myframeend{}
+\myframe{Αποτελέσματα πειραματικής αξιολόγησης}
+\framesubtitle{Λήψη Συστάσεων}
+
+Σενάριο χρήσης του συστήματος όπου ένας χρήστης με κενό αναγνωστικό ιστορικό
+συνδέεται στο σύστημα και επιλέγει προς ανάγνωση άρθρα μόνο από μία κατηγορία,
+την Κατηγορία \textlatin{\#}1:
+
+\begin{figure}[!ht] \centering
+\centerline{
+    \includegraphics[width=0.8\textwidth]{figures/category/1.png}}
+    \caption{\textlatin{Groups} άρθρων της Κατηγορίας \textlatin{\#}1.}
+    \label{}
+\end{figure}
+
+
+%------------------------------
+\myframeend{}
+\myframe{Αποτελέσματα πειραματικής αξιολόγησης}
+\framesubtitle{Λήψη Συστάσεων}
+
+\begin{figure}[!ht] \centering
+\centerline{
+    \includegraphics[width=0.8\textwidth]{figures/category/1a.png}}
+    %\caption{\textlatin{Groups} άρθρων της Κατηγορίας \textlatin{\#}1.}
+    \label{}
+\end{figure}
+
+
+\begin{figure}[!ht] \centering
+\centerline{
+    \includegraphics[width=0.8\textwidth]{figures/category/1b.png}}
+    %\caption{\textlatin{Groups} άρθρων της Κατηγορίας \textlatin{\#}1.}
+    \label{}
+\end{figure}
+
+
+\begin{figure}[!ht] \centering
+\centerline{
+    \includegraphics[width=0.8\textwidth]{figures/category/1c.png}}
+    %\caption{\textlatin{Groups} άρθρων της Κατηγορίας \textlatin{\#}1.}
+    \label{}
+\end{figure}
+
+%------------------------------
+\myframeend{}
+\myframe{Αποτελέσματα πειραματικής αξιολόγησης}
+\framesubtitle{Λήψη Συστάσεων}
+
+\begin{figure}[!ht] \centering
+\centerline{
+    \includegraphics[width=0.8\textwidth]{figures/category/1d.png}}
+    %\caption{\textlatin{Groups} άρθρων της Κατηγορίας \textlatin{\#}1.}
+    \label{}
+\end{figure}
+
+\begin{figure}[!ht] \centering
+\centerline{
+    \includegraphics[width=0.8\textwidth]{figures/category/1e.png}}
+    %\caption{\textlatin{Groups} άρθρων της Κατηγορίας \textlatin{\#}1.}
+    \label{}
+\end{figure}
+
+
+%============================================= 6ο kefalaio ======================================================
+\myframeend{}\section{Συμπεράσματα και Μελλοντικές Επεκτάσεις}
+
+\myframeend{}
+\subsection*{Συμπεράσματα}
+
+%------------------------------
+\myframeend{}
+\myframe{Συμπεράσματα}
+
+\begin{itemize}[<+->]
+  \item Το σύστημα είναι σε θέση να καλύψει επαρκώς τις αναγνωστικές ανάγκες του χρήστη με βάση τα δεδομένα που του έχουν δοθεί ως είσοδος.
+  \item Ιδιαίτερα ικανοποιητικά είναι τα αποτελέσματα σχετικά με την ποικιλία της λίστας συστάσεων.
+  \item Καλή απόδοση σε διαφορετικούς τύπους κειμένων και ιδιαίτερα, όταν τα κείμενα είναι μικρά σε μέγεθος.
+  \end{itemize}
+  
+\myframeend{}
+\subsection*{Μελλοντικές Επεκτάσεις}
+
+%------------------------------
+\myframeend{}
+\myframe{Μελλοντικές Επεκτάσεις}
+
+\begin{itemize}[]
+ \item \textbf{Συστάσεις σε ομάδες χρηστών:} 
+ Συνδυασμός πολλαπλών προφίλ (διανυσμάτων) για τη δημιουργία ενός κοινού προφίλ για μία ομάδα χρηστών.
+ \item \textbf{Ανατροφοδότηση/Εκπαίδευση συστήματος με την αξιολόγηση του χρήστη:}
+ \begin{itemize}
+  \item Αποθήκευση προτεινόμενων άρθρων που βρέθηκαν ενδιαφέροντα στη ΒΔ.
+  \item Είσοδος αξιολόγησης στο σύστημα.
+  \item Δημιουργία σύναψης μεταξύ συγκεκριμένων άρθρων μέσα σε κάθε \textlatin{cluster} και θεμάτων που διαφαίνονται από τις επιλογές ενός χρήστη, προκειμένου να
+λάβουμε βελτιωμένα αποτελέσματα σε επόμενη σύσταση.
+ \end{itemize} 
+\item \textbf{Εφαρμογή συνάρτησης αξιολόγησης} για την επιλογή ν-άδων σύστασης που προσφέρουν τη μέγιστη αύξηση ωφέλειας για το χρήστη / 
+Εφαρμογή \textlatin{submodular} μοντέλου συστάσεων.
+\end{itemize}
+
+%=================================================================================================================
+
+\myframeend{}
+\appendix
+\section*{}
+
+\begin{frame}
+\Huge{\centerline{Ευχαριστώ!}}
+\end{frame}
+
+\end{document}

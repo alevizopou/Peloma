@@ -1,0 +1,41 @@
+#!/usr/bin/python
+
+import mysql.connector
+from random import randint
+
+MAX_ARTICLE_ID = 138
+
+# Open database connection (If database is not created, don't give dbname)
+cnx = mysql.connector.connect(host='localhost', user='root', password='root')
+
+# prepare a cursor object using cursor() method
+cursor = cnx.cursor()
+
+cursor.execute("DROP DATABASE IF EXISTS news")
+
+cursor.execute("DROP TABLE IF EXISTS article_text")
+
+try:
+    cursor.execute("CREATE DATABASE news DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci")
+except mysql.connector.Error as err:
+    print('Error:', err)
+
+cursor.execute("USE news")
+
+cursor.execute("CREATE TABLE article_text ( \
+article_id SMALLINT(3) NOT NULL AUTO_INCREMENT, \
+body TEXT, \
+PRIMARY KEY(article_id) \
+)ENGINE=innoDB DEFAULT CHARACTER SET=utf8 COLLATE=utf8_unicode_ci")
+
+cursor.execute("LOAD DATA LOCAL INFILE '/home/afro/PycharmProjects/create_db/article_text.txt' "
+               "INTO TABLE article_text "
+               "LINES TERMINATED BY '***********************************************************************' (body)")
+
+cursor.execute("LOAD DATA LOCAL INFILE '/home/afro/PycharmProjects/create_db/article_text2.txt' "
+               "IGNORE INTO TABLE article_text "
+               "LINES TERMINATED BY '***********************************************************************' (body)")
+
+cnx.commit()
+cursor.close()
+cnx.close()

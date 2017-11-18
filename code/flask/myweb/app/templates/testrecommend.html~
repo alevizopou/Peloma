@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block content %}
+
+<center>
+    <form action="/articles">
+        <input type="submit" value="Back to Articles">
+    </form>
+
+    <form action="/history">
+        <input type="submit" value="{{ user_selected }}'s reading history">
+    </form>
+</center>
+
+<form>
+<div align="center" style="width:100%">
+    <br>
+    <table class="myTable" align="center" style="width:60%" cellpadding="2">
+        <tr>
+            <th width="10%">id</th><th width="80%">Articles</th><th width="10%"></th>
+	    <!--<th width="10%">id</th><th width="90%">Articles</th>-->
+        </tr>
+        {% for art in artlist %}
+        <tr>
+            <td style="text-align:center">{{ art[0] }} </td>
+	    <td><a href="/show_article/{{ art[0] }}"> {{ art[1] }}</a></td>
+	    <td style="text-align:center"><input type="checkbox" name="check" value="world"></td>
+        </tr>
+        {% endfor %}
+	<!--<tr><input type="submit"><br>
+	</tr>-->
+    </table>
+</div>
+</form>
+
+<div class="container">
+    <form style="float:center;">
+    <div>
+    <br>
+    <table class="myTable" align="center" style="width:60%" cellpadding="2">
+        <tr>
+	    <th width="10%">id</th><th width="90%">Articles</th>
+        </tr>
+        {% for art in artlist %}
+        <tr>
+            <td style="text-align:center">{{ art[0] }} </td>
+	    <td><a href="/show_article/{{ art[0] }}"> {{ art[1] }}</a></td>
+        </tr>
+        {% endfor %}
+	<!--<tr><input type="submit"><br>
+	</tr>-->
+    </table>
+    </div>
+    </form>
+
+    <form style="float:center;">
+    <div>
+    <table align="right" style="width:10%" cellpadding="2">
+        <tr>
+            <!--<th width="10%">id</th><th width="80%">Articles</th><th width="10%"></th>-->
+	    <th width="10%"></th>
+        </tr>
+        {% for art in artlist %}
+        <tr>
+	    <td style="text-align:center"><input type="checkbox" name="check" value="world"></td>
+        </tr><br>
+        {% endfor %}
+	<!--<tr><input type="submit">
+	</tr>-->
+    </table>
+    </div>
+    </form>
+
+</div>
+</form>
+{% endblock %}

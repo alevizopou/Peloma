@@ -1,0 +1,14 @@
+<Organization gate:gateId="416" rule="Unknown" gate:matches="394;412" NMRule="Unknown" kind="PN">HAITIAN</Organization> CANE PLANTERS PROTEST SUGAR MILL CLOSURE
+  About 2,000 sugar cane planters
+  marched to <Location gate:gateId="413" locType="city" rule="Location1" ruleFinal="LocFinal">Port-au-Prince</Location> to protest against the closure of
+  <Location gate:gateId="414" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="393;396">Haiti</Location>&apos;s largest sugar mill and second biggest employer.
+      The <Organization gate:gateId="415" orgType="unknown" rule="OrgXEnding" ruleFinal="OrgCountryFinal" gate:matches="394;412">Haitian American Sugar Company</Organization> closed on Friday because
+  of a huge surplus of unsold sugar. The firm said <Location gate:gateId="417" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="393;396">Haiti</Location> has been
+  flooded with smuggled refined and unrefined sugar from the
+  <Location gate:gateId="418" locType="country" rule="Location1" ruleFinal="LocFinal">Dominican Republic</Location> and refined <Location gate:gateId="419" locType="country" rule="Location1" ruleFinal="LocFinal">U.S.</Location> Sugar from <Location gate:gateId="420" locType="city" rule="Location1" ruleFinal="LocFinal">Miami</Location>.
+      The closure idled 3,500 factory workers and left 30,000
+  small cane planters with no outlet for their cane. The
+  protesters blamed Finance Minister Lesly Delatour for the
+  closure, saying his policies have hurt Haitian businesses.
+  
+

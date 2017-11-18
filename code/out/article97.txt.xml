@@ -1,0 +1,36 @@
+<Location gate:gateId="1065" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1035;1037;1041;1044;1047;1049">INDONESIA</Location> REJECTS <Organization gate:gateId="1066" orgType="company" rule="GazOrganization" ruleFinal="OrgFinal" gate:matches="1036;1038;1043;1046;1048">WORLD BANK</Organization> FARM REFORM IDEAS
+  <Location gate:gateId="1067" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1035;1037;1041;1044;1047;1049">Indonesia</Location> rejected <Organization gate:gateId="1068" orgType="company" rule="GazOrganization" ruleFinal="OrgFinal" gate:matches="1036;1038;1043;1046;1048">World Bank</Organization>
+  recommendations for sweeping reforms to its farm economy, as
+  the country&apos;s foreign aid donors met to consider giving it 2.5
+  billion dlrs in grants and soft loans.
+      Agriculture Minister <Person gate:gateId="1069" firstName="Achmad" ruleFinal="PersonFinal" gender="male" surname="Affandi" kind="fullName" rule="PersonFull" gate:matches="1039;1059;1060;1061">Achmad Affandi</Person>, in written remarks
+  distributed today as <Location gate:gateId="1070" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1035;1037;1041;1044;1047;1049">Indonesia</Location>&apos;s 14 foreign donor nations met
+  at <Location gate:gateId="1071" locType="city" rule="Location1" ruleFinal="LocFinal">The Hague</Location>, said, &quot;The general argument presented by the Bank
+  for this free trade, open economy view is weak.&quot;
+      The <Organization gate:gateId="1072" orgType="other" rule="GazOrganization" ruleFinal="OrgFinal" gate:matches="1036;1038;1043;1046;1048">Bank</Organization> called for overhauls in how <Location gate:gateId="1073" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1035;1037;1041;1044;1047;1049">Indonesia</Location> manages the
+  largest farm area in South-<Location gate:gateId="1074" locType="pre" rule="Location1" ruleFinal="LocFinal">east Asia</Location>, and said agricultural
+  growth was stagnating under subsidies for rice farming.
+      The <Organization gate:gateId="1075" orgType="other" rule="GazOrganization" ruleFinal="OrgFinal" gate:matches="1036;1038;1043;1046;1048">Bank</Organization> report said <Location gate:gateId="1076" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1035;1037;1041;1044;1047;1049">Indonesia</Location>&apos;s rice production had peaked
+  and the subsidies are a waste of money.
+      <Person gate:gateId="1063" rule="Unknown" gate:matches="1039;1059;1060;1061" NMRule="Unknown" kind="PN">Affandi</Person> replied that rice is the main staple and provides
+  an income for 17 pct of the workforce. The subsidies were
+  needed to support the fertilizer industry, including importers,
+  exporters, producers and distributors, he said, as well as
+  assisting in small part the majority of Indonesian farmers.
+      <Person gate:gateId="1064" rule="Unknown" gate:matches="1039;1059;1060;1061" NMRule="Unknown" kind="PN">Affandi</Person> agreed with a bank recommendation that farmers
+  should be free to choose their own crops, but he said the
+  government would continue to maintain production targets for
+  &quot;strategic commodities&quot; such as rice and sugar.
+      The <Organization gate:gateId="1077" orgType="other" rule="GazOrganization" ruleFinal="OrgFinal" gate:matches="1036;1038;1043;1046;1048">Bank</Organization> report was especially critical of <Location gate:gateId="1078" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1035;1037;1041;1044;1047;1049">Indonesia</Location>&apos;s
+  drive to plant sugar, saying domestic sugar prices are double
+  the world average because of inefficiencies, and the country
+  would save money by importing the commodity.
+      However, <Person gate:gateId="1062" rule="PersonSays" matchedWithLonger="true" gender="male" gate:matches="1039;1059;1060;1061">Affandi</Person> said volatile world sugar prices, the need
+  to save foreign exchange and an already up-and-running sugar
+  industry were good arguments for continuing the sugar drive.
+      He also said import barriers and trade monopolies in the
+  agricultural sector were needed to help domestic industry
+  develop and because of &quot;over-production and price intervention
+  in the developed nations.&quot;
+  
+

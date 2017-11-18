@@ -1,0 +1,17 @@
+<Location gate:gateId="502" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="481;486">U.S.</Location> CONGRESSMAN INTRODUCES REAGAN <Person gate:gateId="501" firstName="SUGAR" rule="UnknownSurname" gate:matches="497;499;500" surname="BILL" kind="personName"><Person gate:gateId="505" rule="Unknown" gate:matches="497;499;500" NMRule="Unknown" kind="PN">SUGAR</Person> BILL</Person>
+  Rep. <Person gate:gateId="504" rule="PersonJobTitle" ruleFinal="PersonFinal" gate:matches="483;498" kind="fullName">John Porter</Person>, R-<Location gate:gateId="507" locType="province" rule="Location1" ruleFinal="LocFinal">Ill.</Location>, introduced
+  in the <Organization gate:gateId="508" orgType="government" rule="GazOrganization" ruleFinal="OrgFinal">House of Representatives</Organization> legislation proposed by the
+  Reagan administration to slash the <Location gate:gateId="509" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="481;486">U.S.</Location> sugar price support, a
+  spokesman for <Person gate:gateId="503" matchedWithLonger="true" rule="PersonSays" gate:matches="483;498">Porter</Person> said.
+      The spokesman said the bill was introduced without any
+  changes from the administration&apos;s proposal sent to <Organization gate:gateId="510" orgType="government" rule="GazOrganization" ruleFinal="OrgFinal">Congress</Organization>
+  last month.
+      That plan calls for a cut in the sugar loan rate to 12
+  cents per pound from 18 cents now. <Person gate:gateId="506" rule="Unknown" matchedWithLonger="true" gate:matches="497;499;500" NMRule="Unknown" kind="PN">Sugar</Person> growers would be
+  compensated for the price cut with targeted direct payments,
+  to be gradually phased-out through 1990. The payments to
+  growers would cost an estimated 1.1 billion dlrs.
+      Representatives of sugar growers have rejected the
+  proposal, saying it would ruin the domestic sugar industry.
+  
+

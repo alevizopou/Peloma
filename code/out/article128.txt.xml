@@ -1,0 +1,16 @@
+COFFEE, SUGAR AND COCOA EXCHANGE NAMES CHAIRMAN
+  The <Location gate:gateId="498" locType="city" rule="Location1" ruleFinal="LocFinal">New York</Location> Coffee, Sugar and Cocoa
+  Exchange (CSCE) elected former first vice chairman <Person gate:gateId="487" rule="GazPersonFirst" firstName="Gerald" ruleFinal="PersonFinal" gender="male" kind="firstName">Gerald</Person>
+  <Person gate:gateId="488" rule="GazPersonFirst" firstName="Clancy" ruleFinal="PersonFinal" gender="male" gate:matches="465;468" kind="firstName">Clancy</Person> to a two-year term as chairman of the board of managers,
+  replacing previous chairman <Person gate:gateId="489" rule="PersonJobTitle" ruleFinal="PersonFinal" gate:matches="466;486" kind="fullName">Howard Katz</Person>.
+      <Person gate:gateId="493" rule="Unknown" matchedWithLonger="true" gate:matches="466;486" NMRule="Unknown" kind="PN">Katz</Person>, chairman since 1985, will remain a board member.
+      <Person gate:gateId="490" rule="FirstPersonStop" ruleFinal="PersonFinal" gender="male" gate:matches="465;468" kind="firstName">Clancy</Person> currently serves on the Exchange board of managers
+  as chairman of its appeals, executive, pension and political
+  action committees.
+      The CSCE also elected <Person gate:gateId="491" firstName="Charles" rule="PersonFull" ruleFinal="PersonFinal" gender="male" surname="Nastro" kind="fullName">Charles Nastro</Person>, executive vice
+  president of <Organization gate:gateId="492" orgType="unknown" rule="OrgXEnding" ruleFinal="OrgFinal">Shearson Lehman Bros</Organization>, as first vice chairman.
+  <Person gate:gateId="494" firstName="Anthony" rule="PersonFull" ruleFinal="PersonFinal" gender="male" surname="Maccia" kind="fullName">Anthony Maccia</Person>, vice president of <Location gate:gateId="495" locType="city" rule="Location1" ruleFinal="LocFinal">Woodhouse</Location>, Drake and <Location gate:gateId="496" locType="city" rule="Location1" ruleFinal="LocFinal">Carey</Location>,
+  was named second vice chairman, and <Person gate:gateId="497" firstName="Clifford" rule="PersonFull" ruleFinal="PersonFinal" gender="male" surname="Evans" kind="fullName">Clifford Evans</Person>, president
+  of Demico Futures, was elected treasurer.
+  
+

@@ -1,0 +1,9 @@
+<Location gate:gateId="259" rule="Location1" ruleFinal="LocFinal" locType="city" gate:matches="243;245;248">QUEBEC</Location> FEBRUARY HOUSING STARTS FALL
+  <Location gate:gateId="260" rule="Location1" ruleFinal="LocFinal" locType="city" gate:matches="243;245;248">Quebec</Location> housing starts fell in February
+  to 2,191, a four pct drop from last year when growth in <Location gate:gateId="261" rule="InLoc1" ruleFinal="LocFinal" locType="city" gate:matches="243;245;248" kind="locName">Quebec</Location>
+  housing starts was among the highest in the <Location gate:gateId="262" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="249;250">Canada</Location>, the <Location gate:gateId="263" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="249;250">Canada</Location>
+  <Organization gate:gateId="258" rule ="OrgConjOrg1" orgType ="unknown">Mortgage</Organization> and <Organization gate:gateId="264" orgType="unknown" rule="OrgXEnding" ruleFinal="OrgFinal">Housing Corp</Organization> said.
+      The February rate seasonally adjusted now stands at 40,000,
+  down from 79,000 in January, the government agency said.
+  
+

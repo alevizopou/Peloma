@@ -1,0 +1,33 @@
+<Location gate:gateId="1032" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="991;992;996;999;1000">UGANDA</Location> PULLS OUT OF COFFEE MARKET - TRADE SOURCES
+  <Location gate:gateId="1019" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="991;992;996;999;1000">Uganda</Location>&apos;s <Organization gate:gateId="1020" orgType="unknown" rule="OrgXBase" ruleFinal="OrgFinal" gate:matches="993;1015;1016;1017;1018">Coffee Marketing Board</Organization> (<Organization gate:gateId="1028" rule ="OrgBracketOrg" gate:matches="993;1015;1016;1017;1018" orgType ="unknown">CMB</Organization>)
+  has stopped offering coffee on the international market because
+  it is unhappy with current prices, coffee trade sources said.
+      The board suspended offerings last week but because of its
+  urgent need for cash it was not immediately clear how long it
+  could sustain, the sources added.
+      Hundreds of Ugandan coffee farmers and processors have been
+  waiting several months for payment from the <Organization gate:gateId="1029" rule ="AcronymOrg" gate:matches="993;1015;1016;1017;1018" orgType ="unknown">CMB</Organization>, which has had
+  trouble finding enough railway wagons to move the coffee to the
+  Kenyan port of <Location gate:gateId="1021" locType="city" rule="Location1" ruleFinal="LocFinal">Mombasa</Location>.
+      Foreign banks have contributed to the cash crisis by
+  holding up remittance of <Location gate:gateId="1022" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="991;992;996;999;1000">Uganda</Location>&apos;s hard currency earnings from
+  coffee exports, the government newspaper <Person gate:gateId="1026" rule="PersonSays">New Vision</Person> said.
+      The banks are holding up to seven mln dlrs in coffee money
+  and <Person gate:gateId="1027" rule="PersonTitle1">President Yoweri Museveni</Person> is thinking of imposing a penalty
+  for such delays, it added.
+      Banking sources said a third factor in the crisis was that
+  commercial banks have lent the board only 77 billion shillings
+  -- the equivalent of 55 mln dlrs -- for crop finance in the
+  current coffee year, while the government had asked for 100
+  billion.
+      The <Organization gate:gateId="1030" rule ="AcronymOrg" gate:matches="993;1015;1016;1017;1018" orgType ="unknown">CMB</Organization> has 455,000 60-kg bags of coffee, about 15 pct of
+  annual production, stockpiled in <Location gate:gateId="1023" rule="InLoc1" ruleFinal="LocFinal" locType="city" kind="locName">Kampala</Location> awaiting shipment.
+      The crop accounts for over 90 pct of <Location gate:gateId="1024" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="991;992;996;999;1000">Uganda</Location>&apos;s export
+  earnings and the recent slide in prices to four-year lows is
+  likely to more than offset an expected increase in production.
+      <Organization gate:gateId="1031" rule="Unknown" gate:matches="993;1015;1016;1017;1018" NMRule="Unknown" kind="PN">CMB</Organization> officials have forecast that because the government has
+  restored law and order in important growing areas, <Location gate:gateId="1025" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="991;992;996;999;1000">Uganda</Location> will
+  produce over three mln bags of coffee in the year ending
+  September 30, about 25 pct more than in 1985/6.
+  
+

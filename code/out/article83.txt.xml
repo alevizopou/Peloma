@@ -1,0 +1,17 @@
+FIRE AT TATE/<Person gate:gateId="574" firstName="LYLE" ruleFinal="PersonFinal" gender="male" surname="LONDON" kind="fullName" rule="PersonFullDoubleBarrelled" gate:matches="541;550;554">LYLE LONDON JETTY</Person> HALTS UNLOADING
+  No raw sugar is being unloaded at Tate
+  and Lyles refinery at <Location gate:gateId="575" rule="Location1" ruleFinal="LocFinal" locType="city" gate:matches="542;553">Silvertown</Location> on the <Location gate:gateId="576" locType="city" rule="Location1" ruleFinal="LocFinal">River</Location> <Location gate:gateId="565" locType="region" rule="Location1" ruleFinal="LocFinal">Thames</Location> following
+  a fire yesterday afternoon, Tate and <Organization gate:gateId="566" orgType="unknown" rule="OrgXEnding" ruleFinal="OrgFinal">Lyle Plc</Organization> said.
+      The fire destroyed a large sector of the main conveyor from
+  the raw sugar <Person gate:gateId="567" rule="GazPersonFirst" firstName="jetty" ruleFinal="PersonFinal" gender="female" gate:matches="547;548" kind="firstName">jetty</Person> to the weighhouse.
+      The company said it is not yet known how long the <Person gate:gateId="568" rule="GazPersonFirst" firstName="jetty" ruleFinal="PersonFinal" gender="female" gate:matches="547;548" kind="firstName">jetty</Person>
+  will be out of use but it hoped that by tomorrow unloading of
+  the bulk carrier Mykon Wave will be able to continue using
+  temporary arrangements, Tate and <Person gate:gateId="569" firstName="Lyle" ruleFinal="PersonFinal" gender="male" matchedWithLonger="true" kind="firstName" rule="GazPersonFirst" gate:matches="541;550;554">Lyle</Person> said.
+      The Mykon Wave arrived in the port recently with about
+  18,300 tonnes of bulk sugar from <Location gate:gateId="570" locType="city" rule="Location1" ruleFinal="LocFinal">Maputo</Location> in <Location gate:gateId="571" rule="InLoc1" ruleFinal="LocFinal" locType="country" kind="locName">Swaziland</Location>. About
+  1,600 tonnes remain to be discharged.
+      Five other ships loaded with raw sugar are awaiting at
+  <Location gate:gateId="572" rule="Location1" ruleFinal="LocFinal" locType="city" gate:matches="542;553">Silvertown</Location> to be discharged, Tate and <Person gate:gateId="573" firstName="Lyle" ruleFinal="PersonFinal" gender="male" matchedWithLonger="true" kind="firstName" rule="GazPersonFirst" gate:matches="541;550;554">Lyle</Person> added.
+  
+

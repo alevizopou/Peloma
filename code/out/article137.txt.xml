@@ -1,0 +1,14 @@
+<Location gate:gateId="376" locType="country" rule="Location1" ruleFinal="LocFinal">U.S.</Location> <Organization gate:gateId="374" rule="Unknown" gate:matches="363;371" NMRule="Unknown" kind="PN">SENATE</Organization> PASSES <Person gate:gateId="373" firstName="HOUSING" rule="UnknownSurname" surname="BILL" kind="personName"><Organization gate:gateId="375" rule="Unknown" gate:matches="365;372" NMRule="Unknown" kind="PN">HOUSING</Organization> BILL</Person>
+  The <Organization gate:gateId="377" orgType="government" rule="GazOrganization" ruleFinal="OrgFinal" gate:matches="363;371">Senate</Organization> passed a two year
+  extension of federal housing programs, including 15 billion
+  dlrs for lower income housing assistance over two years. The
+  vote was 71 to 27.
+      <Organization gate:gateId="378" orgType="company" rule="GazOrganization" ruleFinal="OrgFinal">Total</Organization> value of the bill was estimated at 31 billion dlrs.
+  The bill permanently extended the authorization for Federal
+  <Organization gate:gateId="379" orgType="unknown" rule="OrgXBase" ruleFinal="OrgFinal" gate:matches="365;372">Housing Authority</Organization> mortgage insurnce.
+      The bill also extended the urban development grant program,
+  the national flood insurance act, the rural housing program as 
+  well as several other housing programs. The bill now goes to
+  the <Organization gate:gateId="380" orgType="government" rule="GazOrganization" ruleFinal="OrgFinal">House</Organization>.
+  
+

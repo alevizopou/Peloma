@@ -1,0 +1,14 @@
+<Location gate:gateId="411" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="393;395;401">MEXICO</Location> HAS NO PLANS TO <Person gate:gateId="422" firstName="LEAVE" rule="UnknownSurname" gender="male" gate:matches="408;397;400;404" surname="ICO" kind="personName">LEAVE ICO</Person>
+  <Location gate:gateId="412" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="393;395;401">Mexico</Location> has no intention of leaving
+  the <Organization gate:gateId="413" orgType="unknown" rule="TheOrgXKey" ruleFinal="OrgFinal">International Coffee Organization</Organization> (<Person gate:gateId="414" firstName="ICO" ruleFinal="PersonFinal" gender="male" matchedWithLonger="true" kind="firstName" rule="GazPersonFirst" gate:matches="408;397;400;404">ICO</Person>), in the event of
+  <Location gate:gateId="415" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="398;402">Brazil</Location> withdrawing from the group, the <Organization gate:gateId="416" orgType="unknown" rule="TheOrgXBase" ruleFinal="OrgFinal">Mexican Coffee Institute</Organization>
+  (<Organization gate:gateId="424" rule ="OrgBracketOrg" orgType ="unknown">IMC</Organization>) said.
+      The <Person gate:gateId="423" rule="PersonSays">IMC</Person> said in a statement the <Person gate:gateId="417" firstName="ICO" ruleFinal="PersonFinal" gender="male" matchedWithLonger="true" kind="firstName" rule="GazPersonFirst" gate:matches="408;397;400;404">ICO</Person> is an important
+  instrument for ensuring producers obtain an adequate price.
+  <Location gate:gateId="418" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="393;395;401">Mexico</Location> currently produces around five mln 60-kilo bags of
+  coffee per year.
+      <Location gate:gateId="419" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="398;402">Brazil</Location> said during a meeting of coffee producers in <Location gate:gateId="420" rule="InLoc1" ruleFinal="LocFinal" locType="city" kind="locName">Rio de
+  Janeiro</Location> over the weekend that it would consider leaving the <Person gate:gateId="421" firstName="ICO" ruleFinal="PersonFinal" gender="male" matchedWithLonger="true" kind="firstName" rule="GazPersonFirst" gate:matches="408;397;400;404">ICO</Person>
+  if its export quota was reduced by the organization.
+  
+

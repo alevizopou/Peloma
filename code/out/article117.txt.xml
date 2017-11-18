@@ -1,0 +1,36 @@
+<Location gate:gateId="1156" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1117;1122;1132">COLOMBIA</Location> HELPFUL BUT COFFEE QUOTAS UNCERTAIN--<Location gate:gateId="1157" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1118;1119;1121;1130;1137">U.S.</Location>
+  A <Location gate:gateId="1158" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1118;1119;1121;1130;1137">U.S.</Location> government trade official
+  responsible for coffee policy said prospects for an accord on
+  coffee quotas are still uncertain despite recent Colombian
+  efforts to bridge differences between producers and consumers.
+      <Person gate:gateId="1159" firstName="Jon" ruleFinal="PersonFinal" gender="male" surname="Rosenbaum" kind="fullName" rule="PersonFull" gate:matches="1120;1148;1149;1150;1153">Jon Rosenbaum</Person>, an assistant <Location gate:gateId="1160" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1118;1119;1121;1130;1137">U.S.</Location> trade representative just
+  back from trade talks in <Location gate:gateId="1161" rule="InLoc1" ruleFinal="LocFinal" locType="country" gate:matches="1117;1122;1132" kind="locName">Colombia</Location>, said most producing
+  countries now accept some sort of standardized criteria must be
+  agreed to reintroduce coffee quotas.
+      &quot;There is one country which evidently still does not,&quot;
+  <Person gate:gateId="1175" rule="PersonSays" matchedWithLonger="true" gender="male" gate:matches="1120;1148;1149;1150;1153">Rosenbaum</Person> said in an obvious reference to <Location gate:gateId="1162" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1123;1124;1136">Brazil</Location>, which has
+  been negative recently on a reintroduction of quotas.
+      <Person gate:gateId="1176" rule="PersonSays" matchedWithLonger="true" gender="male" gate:matches="1120;1148;1149;1150;1153">Rosenbaum</Person> said because of the stance of <Location gate:gateId="1163" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1123;1124;1136">Brazil</Location> the outlook
+  for an agreement to reintroduce coffee quotas at the September
+  <Organization gate:gateId="1164" orgType="unknown" rule="OrgXKey" ruleFinal="OrgFinal">International Coffee Organization</Organization> meeting is hard to predict.
+      He said that during the visit to <Location gate:gateId="1165" locType="city" rule="Location1" ruleFinal="LocFinal">Bogota</Location> he held technical
+  discussions with Colombian officials.
+      While he did not meet with <Person gate:gateId="1166" firstName="Jorge" ruleFinal="PersonFinal" gender="male" surname="Cardenas" kind="fullName" rule="PersonFull" gate:matches="1128;1151;1152">Jorge Cardenas</Person>, head of the
+  Colombian coffee producers federation, who was in <Location gate:gateId="1167" rule="InLoc1" ruleFinal="LocFinal" locType="region" kind="locName">Europe</Location>,
+  <Person gate:gateId="1178" rule="Unknown" matchedWithLonger="true" gender="male" gate:matches="1128;1151;1152" NMRule="Unknown" kind="PN">Cardenas</Person> left a &quot;positive letter,&quot; <Person gate:gateId="1177" rule="PersonSays" matchedWithLonger="true" gender="male" gate:matches="1120;1148;1149;1150;1153">Rosenbaum</Person> said.
+      The <Person gate:gateId="1154" rule="Unknown" gate:matches="1128;1151;1152" NMRule="Unknown" kind="PN">Cardenas</Person> letter responded to a <Location gate:gateId="1168" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1118;1119;1121;1130;1137">U.S.</Location> letter last month
+  which praised <Location gate:gateId="1169" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1117;1122;1132">Colombia</Location> for trying to find a compromise formula
+  for the reintroduction of quotas, but outlined several concerns
+  with the technical details of the Colombian plan.
+      <Person gate:gateId="1155" rule="Unknown" gate:matches="1120;1148;1149;1150;1153" NMRule="Unknown" kind="PN">Rosenbaum</Person> could not be reached later in the day for comment
+  on a new formula for calculating <Person gate:gateId="1170" rule="GazPersonFirst" firstName="ICO" ruleFinal="PersonFinal" gender="male" kind="firstName">ICO</Person> quotas agreed to by
+  European coffee roasters and traders.
+      Dutch coffee trade association chairman <Person gate:gateId="1171" rule="PersonJobTitle" kind="fullName" ruleFinal="PersonFinal">Frits van Horick</Person>
+  said in <Location gate:gateId="1172" rule="InLoc1" ruleFinal="LocFinal" locType="city" kind="locName">Amsterdam</Location> the new formula is based on six year moving
+  averages and would give <Location gate:gateId="1173" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1123;1124;1136">Brazil</Location> an unchanged export quota for
+  the remaining to years of the current coffee agreement.
+      The <Location gate:gateId="1174" rule="Location1" ruleFinal="LocFinal" locType="country" gate:matches="1118;1119;1121;1130;1137">U.S.</Location> has said it will not agree to any coffee quotas
+  unless &quot;objective criteria&quot; which reflect recent changes in the
+  coffee market are used to set export limits.
+  
+

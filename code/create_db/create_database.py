@@ -145,7 +145,6 @@ PRIMARY KEY(id) \
 )ENGINE=innoDB DEFAULT CHARACTER SET=utf8 COLLATE=utf8_unicode_ci")
 
 # article id, title, author, date
-# LOAD DATA LOCAL INFILE '/media/afro/True Dat/Thesis/mysql/article_info.txt'
 cursor.execute("LOAD DATA LOCAL INFILE '/home/afroditi/PycharmProjects/create_db/text/article_info.txt' "
                "INTO TABLE article LINES TERMINATED BY '\n'")
 
